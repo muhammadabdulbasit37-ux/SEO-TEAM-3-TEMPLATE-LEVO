@@ -1,0 +1,54 @@
+{
+  "/": {
+    "title": "Escape From Tarkov Cheats | ESP, Aimbot & Loot-ESP für Raids",
+    "description": "Spieler-ESP, Loot-ESP, Aimbot und No-Recoil für PMC-Raids unter Windows, mit Loader-Updates nach Patches. Pläne vergleichen auf {siteDomain}."
+  },
+  "/cheats/": {
+    "title": "Escape From Tarkov Cheats | ESP, Loot ESP & Aimbot kaufen",
+    "description": "Volles Raid-Paket mit Spieler-ESP, Loot-Filtern, Aimbot und No-Recoil für Haupt-Tarkov-Karten, nicht Arena. Monats- und Lifetime-Pläne auf {siteDomain}."
+  },
+  "/hwid-spoofer/": {
+    "title": "HWID Spoofer | Hilfe bei Hardware-Banns",
+    "description": "Ändert Festplatten-, MAC- und GPU-Kennungen nach einem Hardware-Bann. Vanguard, EAC, BattlEye, Ricochet, Cleaner inklusive. Pläne auf {siteDomain}."
+  },
+  "/products/": {
+    "title": "{cheatProduct} & Tools | Alle Produkte",
+    "description": "Alle Produkte auf {siteDomain} im Vergleich: Funktionen, Anforderungen, Pläne und Checkout über unseren Partner."
+  },
+  "/ugc/": {
+    "title": "UGC Kontowiederherstellung | Einspruch & Entbannung",
+    "description": "Eigene Einspruchs-Workflows und Streit-Automation für gesperrte Gaming- und Marktplatz-Accounts. Pläne auf {siteDomain}."
+  },
+  "/skin-changer/": {
+    "title": "Skin Changer | Waffenskins & Outfits freischalten",
+    "description": "Leichter Skin Changer, der Premium-Waffen-Skins, Outfits und seltene Messer in großen Titeln freischaltet. Monats- und Lifetime-Pläne auf {siteDomain}."
+  },
+  "/blog/": {
+    "title": "Escape From Tarkov Guides | ESP-Setup, Aimbot & BattlEye",
+    "description": "Raid-Preset-Anleitungen, ESP- und Aim-Tuning, Loot-Filter und BattlEye-Status-Checklisten auf {siteDomain}."
+  },
+  "/forum/": {
+    "title": "Escape From Tarkov Forum | Setup-, Status- & HWID-Threads",
+    "description": "Schreibgeschützte Escape From Tarkov-Diskussionen zu Loadouts, Patches und Guides. Neue Threads und Antworten sind geschlossen."
+  },
+  "/faq/": {
+    "title": "Escape From Tarkov Cheats FAQ | Setup, Pläne & BattlEye",
+    "description": "Antworten zu Escape From Tarkov Cheats: Setup, Monats- und Lifetime-Pläne, ESP- und Aim-Module, BattlEye-Status und Checkout-Hilfe auf {siteDomain}."
+  },
+  "/terms/": {
+    "title": "Verkaufsbedingungen und Lizenznutzung",
+    "description": "Rückerstattungsregeln, Lizenzbeschränkungen, Lieferung an der Kasse und Offenlegung von Risiken für Produkte, die über {siteDomain} verkauft werden."
+  },
+  "/privacy/": {
+    "title": "Datenschutz | Analyse- und Supportdaten",
+    "description": "Wie {siteDomain} Cookies, Analysen und die Informationen verwendet, die Sie beim Öffnen eines Support-Tickets senden."
+  },
+  "/about/": {
+    "title": "Über {siteDomain} & {siteName}",
+    "description": "Wer veröffentlicht Escape From Tarkov Cheats-Ressourcen, Statusnotizen und Supportkanäle auf {siteDomain}?"
+  },
+  "/support/": {
+    "title": "Escape From Tarkov Support | Loader-, HWID- & Checkout-Hilfe",
+    "description": "Discord auf {siteDomain} vor oder nach dem Bezahlen: Portalzugriff, Modulfehler und Rechnungen."
+  }
+}

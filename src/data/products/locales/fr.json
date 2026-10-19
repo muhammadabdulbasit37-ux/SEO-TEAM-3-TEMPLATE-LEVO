@@ -1,0 +1,388 @@
+{
+  "sharedGoodToKnow": "Escape From Tarkov et BattlEye reçoivent des mises à jour fréquentes. Confirmez la disponibilité du module sur le panneau d'état en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA constitue un achat distinct lorsque cela est nécessaire pour bénéficier de toutes les fonctionnalités.",
+  "sharedLimitations": "Les logiciels tiers dans Escape From Tarkov peuvent enfreindre les conditions de {gamePublisher} et entraîner des bans ou des actions sur le compte de BattlEye. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après les mises à jour du jeu, de BattlEye ou de Windows sans préavis.",
+  "acquisitionSteps": [
+    {
+      "num": "01",
+      "title": "Vérifier l'état actuel",
+      "desc": "Vérifiez la bannière en direct sur {siteDomain} et Discord #status avant l'achat, surtout après une mise à jour d'Escape From Tarkov ou de BattlEye."
+    },
+    {
+      "num": "02",
+      "title": "Choisissez votre niveau d'accès",
+      "desc": "Sélectionnez Escape From Tarkov Cheats ou l'utilitaire qui correspond à votre objectif. Consultez la liste des fonctionnalités avant de procéder au paiement via notre paiement partenaire."
+    },
+    {
+      "num": "03",
+      "title": "Contactez l'équipe",
+      "desc": "Ouvrez Discord et confirmez la disponibilité, la configuration de Windows et les détails de paiement avec votre e-mail de commande prêt."
+    },
+    {
+      "num": "04",
+      "title": "Suivez la configuration guidée",
+      "desc": "Utilisez uniquement le portail opérateur, le chargeur de correctifs et le guide de configuration. Testez hors ligne, chargez les préréglages, puis exécutez des raids PMC lorsque l'état est en ligne."
+    }
+  ],
+  "systemRequirements": [
+    "Windows 10 ou 11 64 bits (Intel ou AMD).",
+    "HVCI et Core Isolation activés dans Sécurité Windows.",
+    "TPM et Secure Boot activés dans le BIOS/UEFI.",
+    "Accès Internet et chargeur stable après l'achat.",
+    "Cloud DMA est nécessaire pour bénéficier de toutes les fonctionnalités."
+  ],
+  "gallery": [
+    {
+      "alt": "Vue à la première personne d'Escape From Tarkov avec le joueur ESP montrant des personnages surlignés en rouge, des contours de squelette et des étiquettes de distance dans une cour industrielle ensoleillée.",
+      "caption": "Joueur ESP dans les raids de jour",
+      "captionDesc": "Points forts des joueurs rouges et verts, squelettes filaires et lectures de distance sur une carte industrielle extérieure."
+    },
+    {
+      "alt": "Scène de vision nocturne Escape From Tarkov avec étiquettes squelettes ESP, PMC et Scav et relevés de compteurs visibles à travers les murs intérieurs.",
+      "caption": "Squelette ESP la nuit",
+      "captionDesc": "Des squelettes en forme de bâton, des badges nominatifs et des marqueurs de distance à travers les murs lors d'un raid intérieur teinté de vert."
+    },
+    {
+      "alt": "Escape From Tarkov vise à la première personne avec des silhouettes de wallhack rouges et des étiquettes d'armes visibles à travers un mur de béton à l'extérieur.",
+      "caption": "ESP à travers une couverture rigide",
+      "captionDesc": "Silhouettes ennemies rouges et appels d'armes rendus à travers une barrière en béton tout en visant vers le bas."
+    }
+  ],
+  "tiers": {
+    "elite": {
+      "about": [
+        {
+          "type": "p",
+          "text": "Cette licence couvre les principaux raids Escape From Tarkov avec le joueur ESP, le butin ESP, l'aimbot, pas de recul, le radar et les aides à l'extraction. Arena est une clé de produit distincte. Cloud DMA est nécessaire pour bénéficier de toutes les fonctionnalités."
+        },
+        {
+          "type": "h2",
+          "text": "Réglez avant de faire la queue"
+        },
+        {
+          "type": "p",
+          "text": "Chargez d'abord les préréglages du portail hors ligne, puis augmentez la distance ESP et visez le lissage sur plusieurs sessions. Le personnel de Discord aide avec les onglets du chargeur si un module entre en conflit après un patch BattlEye."
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Plans et livraison"
+        },
+        {
+          "type": "p",
+          "text": "Choisissez mensuel (35 $ pour 31 jours) ou à vie (150 $) à la caisse. Le portail de l'opérateur se déverrouille instantanément avec le téléchargement du chargeur, la bibliothèque de préréglages et les notes de mise à jour. Vérifiez la bannière d'état en direct avant chaque session."
+        },
+        {
+          "type": "h2",
+          "text": "Disposition des modules"
+        },
+        {
+          "type": "p",
+          "text": "L'ESP, le butin, la visée, les armes, le radar et les utilitaires ont chacun leur propre onglet de chargement afin que vous puissiez désactiver les aides au combat tout en conservant les filtres de butin pendant les courses de cachette."
+        }
+      ],
+      "overview": {
+        "title": "Une licence pour les raids PMC sous Windows",
+        "paragraphs": [
+          "Escape From Tarkov Cheats regroupe des modules de sensibilisation et de combat pour les raids principaux : ESP du joueur et du butin, aimbot, pas de recul, radar, marqueurs d'extraction et superpositions à l'épreuve des flux. Le chargeur regroupe les paramètres par onglet afin que vous puissiez exécuter des profils réservés au butin ou des chargements de combat complets.",
+          "Les licences couvrent Windows 10 et 11 sur Intel ou AMD, avec HVCI, Core Isolation, TPM et Secure Boot activés.L'accès aux raids uniquement exclut l'arène ;Cloud DMA est nécessaire pour bénéficier de toutes les fonctionnalités. Les forfaits mensuels et à vie sont répertoriés lors du paiement : confirmez l'état en ligne sur {siteDomain} avant d'acheter ou de lancer."
+        ]
+      },
+      "goodToKnow": "Escape From Tarkov et BattlEye reçoivent des mises à jour fréquentes. Confirmez la disponibilité du module sur le panneau d'état en direct sur {siteDomain} avant d'acheter ou de lancer. Cloud DMA constitue un achat distinct lorsque cela est nécessaire pour bénéficier de toutes les fonctionnalités.",
+      "limitations": "Les logiciels tiers dans Escape From Tarkov peuvent enfreindre les conditions de {gamePublisher} et entraîner des bans ou des actions sur le compte de BattlEye. Vous utilisez ce logiciel à vos propres risques. La compatibilité et la disponibilité peuvent changer après les mises à jour du jeu, de BattlEye ou de Windows sans préavis.",
+      "acquisitionTitle": "Comment obtenir Escape From Tarkov Cheats",
+      "fullFeatures": [
+        "ESP joueur (boîte, squelette, santé, distance)",
+        "Filtres ESP PMC, Scav et boss",
+        "ESP de butin avec filtres de catégorie et de prix",
+        "Surbrillance des conteneurs, corps et objets de quête",
+        "Marqueurs d’extraction et de transition",
+        "Aimbot avec FOV, lissage et choix de l’os",
+        "Sans recul et sans balancement",
+        "Overlays invisibles au stream",
+        "Raccourcis et sauvegarde de la configuration",
+        "Radar 2D et flèches hors écran",
+        "Raids uniquement (clé séparée d’Arena)",
+        "Livraison instantanée via le portail",
+        "Windows 10/11 ; Intel/AMD",
+        "Vérifier le statut en direct après les patchs BattlEye",
+        "Cloud DMA requis pour toutes les fonctions"
+      ]
+    }
+  },
+  "utilities": {
+    "hwid-spoofer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Quand un spoofer est utile"
+        },
+        {
+          "type": "p",
+          "text": "Un ban HWID lie la sanction à votre PC et pas seulement au compte. Le signe habituel : les nouveaux comptes sont bannis immédiatement sur une machine mais fonctionnent sur une autre. Le spoofer modifie les numéros de série des disques, les adresses MAC, les identifiants GPU et d’autres identifiants pour revenir avec un profil matériel propre. Il ne lève pas le ban d’un compte existant."
+        },
+        {
+          "type": "h2",
+          "text": "Anti-cheats pris en charge"
+        },
+        {
+          "type": "p",
+          "text": "Il fonctionne avec Riot Vanguard (Valorant), Easy Anti-Cheat, BattlEye, Ricochet (Call of Duty) et d’autres systèmes comme ACE et Javelin. Vérifiez que votre jeu est couvert avant d’acheter, car la prise en charge peut changer après une mise à jour de l’anti-cheat."
+        },
+        {
+          "type": "h2",
+          "text": "Nettoyeur inclus"
+        },
+        {
+          "type": "p",
+          "text": "Le spoof s’accompagne d’étapes de nettoyage qui effacent les traces avant de relancer le jeu. Lancez le spoof et le nettoyage avant d’ouvrir le jeu banni, dans l’ordre indiqué par le guide actuel."
+        },
+        {
+          "type": "h2",
+          "text": "Configuration requise"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 ou 11 (64 bits), droits administrateur pour le spoof et le nettoyage, HVCI, Core Isolation, TPM et Secure Boot activés, et une connexion stable pour l’activation et les mises à jour."
+        }
+      ],
+      "overview": {
+        "title": "Sortir d’un ban matériel sur les principaux anti-cheats",
+        "paragraphs": [
+          "HWID Spoofer modifie les numéros de série des disques, les adresses MAC, les identifiants GPU et d’autres identifiants associés pour revenir après un ban matériel avec un profil matériel propre. Il couvre Riot Vanguard, Easy Anti-Cheat, BattlEye, Ricochet et d’autres anti-cheats, et un nettoyeur est inclus.",
+          "Utilisez-le quand les nouveaux comptes sont bannis immédiatement sur votre PC mais fonctionnent sur un autre. Il ne lève pas le ban d’un compte existant. Les forfaits mensuel (31 jours) et à vie incluent le même outil."
+        ]
+      },
+      "goodToKnow": "Lancez le spoof et le nettoyage avant d’ouvrir le jeu banni, dans l’ordre indiqué par le guide actuel. Vérifiez que votre jeu et son anti-cheat sont pris en charge avant d’acheter.",
+      "limitations": "Conçu pour les bans matériels ; il ne lève pas le ban d’un compte existant. Utiliser un spoofer peut enfreindre les conditions du jeu et entraîner d’autres bans. La prise en charge peut changer après une mise à jour de l’anti-cheat, sans préavis.",
+      "acquisitionTitle": "Comment obtenir HWID Spoofer",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Vérifiez que votre jeu est couvert",
+          "desc": "Le spoofer prend en charge Riot Vanguard, Easy Anti-Cheat, BattlEye, Ricochet et d’autres anti-cheats. Vérifiez que votre jeu figure dans la liste et consultez la bannière d’état sur {siteDomain} avant d’acheter."
+        },
+        {
+          "num": "02",
+          "title": "Choisissez mensuel ou à vie",
+          "desc": "Le forfait mensuel donne 31 jours d’accès et le forfait à vie n’expire pas. Les deux incluent le même outil."
+        },
+        {
+          "num": "03",
+          "title": "Préparez la sécurité Windows",
+          "desc": "Activez HVCI et Core Isolation dans Sécurité Windows, ainsi que TPM et Secure Boot dans le BIOS/UEFI, avant le premier lancement. Utilisez un compte Windows avec des droits administrateur."
+        },
+        {
+          "num": "04",
+          "title": "Spoof et nettoyage avant de jouer",
+          "desc": "Lancez les étapes de spoof et de nettoyage avant d’ouvrir le jeu banni, dans l’ordre indiqué par le guide actuel."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 ou 11, 64 bits.",
+        "Droits administrateur pour les étapes de spoof et de nettoyage.",
+        "HVCI et Core Isolation activés dans Sécurité Windows.",
+        "TPM et Secure Boot activés dans le BIOS/UEFI.",
+        "Connexion Internet stable pour l’activation et les mises à jour."
+      ],
+      "fullFeatures": [
+        "Spoof des numéros de série disque",
+        "Spoof des adresses MAC",
+        "Spoof des ID GPU",
+        "Spoof des autres identifiants matériels",
+        "Nettoyeur inclus",
+        "Riot Vanguard (Valorant)",
+        "Titres Easy Anti-Cheat",
+        "Titres BattlEye",
+        "Ricochet (Call of Duty)",
+        "ACE, Javelin et autres anti-cheats"
+      ],
+      "gallery": [
+        {
+          "alt": "Écran de séries du portail : lignes disque, carte, écran, UUID, GPU et réseau marquées modifiées ou inchangées, à côté d’une vérification des séries.",
+          "caption": "Comparaison des identifiants",
+          "captionDesc": "Chaque ligne indique si la valeur a changé après le spoof."
+        },
+        {
+          "alt": "Onglet spoof UEFI avec interrupteur de spoof permanent, bascules GPU et ethernet, et un champ de seed sur un tableau de bord sombre.",
+          "caption": "Panneau UEFI",
+          "captionDesc": "Activez le spoof GPU ou ethernet, définissez un seed et lancez le spoof permanent sans quitter l’onglet UEFI."
+        }
+      ]
+    },
+    "ugc": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "À quoi sert UGC"
+        },
+        {
+          "type": "p",
+          "text": "UGC (Unban & Governance Control) est un outil d’automatisation pour récupérer des comptes restreints sur n’importe quelle plateforme : profils de jeu, comptes de réseaux sociaux et boutiques sur des marketplaces. Vous créez des workflows d’appel personnalisés et automatisez les litiges au lieu de traiter chaque dossier à la main."
+        },
+        {
+          "type": "h2",
+          "text": "Des attentes réalistes"
+        },
+        {
+          "type": "p",
+          "text": "UGC vous aide à préparer et gérer vos appels, mais la plateforme qui les examine prend la décision finale, et certains bans sont définitifs. Il ne modifie pas les identifiants matériels, il n’aide donc pas quand le ban est lié à votre PC."
+        },
+        {
+          "type": "h2",
+          "text": "Configuration requise"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 ou 11 avec HVCI, Core Isolation, TPM et Secure Boot activés."
+        }
+      ],
+      "overview": {
+        "title": "Récupération de compte sur toutes les plateformes",
+        "paragraphs": [
+          "UGC (Unban & Governance Control) est un outil d’automatisation pour récupérer des comptes restreints sur les plateformes de jeu, les réseaux sociaux et les marketplaces. Créez des workflows d’appel personnalisés et automatisez les litiges au lieu de traiter chaque dossier à la main.",
+          "Il ne peut pas garantir de résultat, car la plateforme décide, et il n’aide pas en cas de ban matériel. Les forfaits mensuel (31 jours) et à vie débloquent le même outil."
+        ]
+      },
+      "goodToKnow": "UGC prépare et gère les appels ; la plateforme qui examine votre dossier décide. Gardez sous la main les informations de votre compte et toute preuve de propriété avant de commencer.",
+      "limitations": "Aucun outil ne peut garantir un déban, et certains bans sont définitifs. UGC ne modifie pas les identifiants matériels et ne contourne pas la sécurité des plateformes. Des informations fausses ou trompeuses nuisent à votre dossier.",
+      "acquisitionTitle": "Comment obtenir UGC",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Vérifiez ce qui a été restreint",
+          "desc": "UGC sert aux comptes restreints. Si le ban est lié à votre matériel (les nouveaux comptes sont bannis immédiatement sur le même PC), un appel ne le réglera pas."
+        },
+        {
+          "num": "02",
+          "title": "Choisissez mensuel ou à vie",
+          "desc": "Le forfait mensuel donne 31 jours d’accès et le forfait à vie n’expire pas. Les deux incluent le même outil."
+        },
+        {
+          "num": "03",
+          "title": "Préparez la sécurité Windows",
+          "desc": "Activez HVCI et Core Isolation dans Sécurité Windows, ainsi que TPM et Secure Boot dans le BIOS/UEFI, avant le premier lancement."
+        },
+        {
+          "num": "04",
+          "title": "Créez votre workflow d’appel",
+          "desc": "Configurez un workflow pour la plateforme qui a restreint votre compte et laissez UGC automatiser les étapes du litige. Demandez au support si vous ne savez pas par où commencer."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 ou 11, 64 bits.",
+        "HVCI et Core Isolation activés dans Sécurité Windows.",
+        "TPM et Secure Boot activés dans le BIOS/UEFI.",
+        "Connexion Internet stable après l’achat."
+      ],
+      "fullFeatures": [
+        "Workflows d’appel personnalisés",
+        "Automatisation des litiges",
+        "Fonctionne sur toute plateforme",
+        "Profils de jeu",
+        "Comptes de réseaux sociaux",
+        "Boutiques marketplace",
+        "Accès mensuel (31 jours) ou à vie",
+        "Windows 10 et 11"
+      ],
+      "gallery": [
+        {
+          "alt": "Engrenage rouge avec une horloge à l’intérieur et des lignes de mouvement, le signe UGC.",
+          "caption": "UGC",
+          "captionDesc": "Workflows d’appel personnalisés et automatisation des litiges pour les comptes restreints."
+        }
+      ]
+    },
+    "skin-changer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Ce qu’il débloque"
+        },
+        {
+          "type": "p",
+          "text": "Skin Changer est un outil léger qui débloque des skins d’armes premium, des tenues de personnage et des variantes de couteaux rares sur les principaux titres, pour ne pas acheter chaque objet en microtransaction."
+        },
+        {
+          "type": "h2",
+          "text": "Les cosmétiques restent dans votre client"
+        },
+        {
+          "type": "p",
+          "text": "Les cosmétiques existent dans votre propre client de jeu. Rien n’est ajouté à votre compte : les objets ne peuvent être ni échangés ni vendus, et ils disparaissent quand vous arrêtez l’outil. Partez du principe que les autres joueurs ne les voient pas."
+        },
+        {
+          "type": "h2",
+          "text": "Jeux pris en charge"
+        },
+        {
+          "type": "p",
+          "text": "La couverture inclut les principaux titres et peut changer après une mise à jour du jeu. Demandez au support de confirmer votre jeu avant d’acheter."
+        },
+        {
+          "type": "h2",
+          "text": "Configuration requise"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 ou 11 avec HVCI, Core Isolation, TPM et Secure Boot activés."
+        }
+      ],
+      "overview": {
+        "title": "Des cosmétiques premium sans microtransactions",
+        "paragraphs": [
+          "Skin Changer est un outil léger qui débloque des skins d’armes premium, des tenues de personnage et des variantes de couteaux rares sur les principaux titres, sans acheter chaque objet.",
+          "Les cosmétiques s’appliquent dans votre propre client de jeu et rien n’est ajouté à votre compte. Les forfaits mensuel (31 jours) et à vie incluent le même outil. Vérifiez que votre jeu est pris en charge avant d’acheter."
+        ]
+      },
+      "goodToKnow": "Les cosmétiques s’appliquent dans votre propre client de jeu et rien n’est ajouté à votre compte. Demandez au support de confirmer votre jeu avant d’acheter.",
+      "limitations": "Les outils tiers peuvent enfreindre les conditions du jeu et entraîner des sanctions sur le compte, même pour des cosmétiques. Les skins ne sont pas de vrais objets, ne peuvent pas être échangés et disparaissent quand l’outil est désactivé. Les titres et objets pris en charge peuvent changer après une mise à jour, sans préavis.",
+      "acquisitionTitle": "Comment obtenir Skin Changer",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Vérifiez que votre jeu est pris en charge",
+          "desc": "Skin Changer fonctionne sur les principaux titres, mais la couverture peut changer après une mise à jour du jeu. Demandez au support de confirmer votre jeu avant d’acheter."
+        },
+        {
+          "num": "02",
+          "title": "Choisissez mensuel ou à vie",
+          "desc": "Le forfait mensuel donne 31 jours d’accès et le forfait à vie n’expire pas. Les deux incluent le même outil."
+        },
+        {
+          "num": "03",
+          "title": "Préparez la sécurité Windows",
+          "desc": "Activez HVCI et Core Isolation dans Sécurité Windows, ainsi que TPM et Secure Boot dans le BIOS/UEFI, avant le premier lancement."
+        },
+        {
+          "num": "04",
+          "title": "Choisissez vos cosmétiques",
+          "desc": "Ouvrez le menu et choisissez les skins d’armes, tenues de personnage et variantes de couteaux que vous voulez."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 ou 11, 64 bits.",
+        "HVCI et Core Isolation activés dans Sécurité Windows.",
+        "TPM et Secure Boot activés dans le BIOS/UEFI.",
+        "Accès Internet et chargeur stable après l'achat."
+      ],
+      "fullFeatures": [
+        "Skins d’armes premium",
+        "Tenues de personnage",
+        "Variantes de couteau rares",
+        "Fonctionne sur les grands titres",
+        "Outil léger",
+        "Les cosmétiques restent sur votre client",
+        "Accès mensuel (31 jours) ou à vie",
+        "Windows 10 et 11"
+      ],
+      "gallery": [
+        {
+          "alt": "Emblème Skin Changer : un bouclier métallique avec le texte Skin Changer, des fusils croisés, des revolvers et des étoiles.",
+          "caption": "Skin Changer",
+          "captionDesc": "Skins d’armes premium, tenues de personnage et variantes de couteau rares."
+        }
+      ]
+    }
+  }
+}

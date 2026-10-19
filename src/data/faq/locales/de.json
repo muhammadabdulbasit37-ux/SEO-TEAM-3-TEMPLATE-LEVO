@@ -1,0 +1,152 @@
+[
+  {
+    "id": "status",
+    "q": "Wo überprüfe ich, ob Escape From Tarkov-Cheats online sind?",
+    "a": "Das Live-Status-Banner befindet sich auf {siteDomain} und im Discord #status-Kanal. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
+  },
+  {
+    "id": "after-buy",
+    "q": "Was passiert nach dem Kauf?",
+    "a": "Ihr Portal schaltet den Loader, die Setup-Anleitung und die Konfigurationsbibliothek über unseren Partner-Checkout frei. Befolgen Sie die Anleitung, bevor Sie Escape From Tarkov starten."
+  },
+  {
+    "id": "ban-risk",
+    "q": "Kann ich für Escape From Tarkov-Cheats von Drittanbietern gesperrt werden?",
+    "a": "Ja, jede Änderung birgt Risiken. BattlEye- und Berichtssysteme entwickeln sich weiter. Lesen Sie vor der Verwendung den aktuellen Status und akzeptieren Sie das Risiko. Den Kontext finden Sie in unserem <a href=\"/blog/battleye-and-escape-from-tarkov-cheats-what-to-know/\">BattlEye- und Escape From Tarkov-Cheats</a>-Leitfaden."
+  },
+  {
+    "id": "platforms",
+    "q": "Welche Plattformen werden unterstützt?",
+    "a": "Escape From Tarkov nur unter Windows 10/11 64-Bit. macOS und Linux werden nicht unterstützt."
+  },
+  {
+    "id": "license-move",
+    "q": "Kann ich meine Lizenz auf einen neuen PC übertragen?",
+    "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Discord-Ticket. Die Limits hängen von Ihrer Stufe ab."
+  },
+  {
+    "id": "products-page",
+    "q": "Wo sind Produkte und Dienstprogramme aufgeführt?",
+    "a": "Alle Produkte findest du auf der <a href=\"/products/\">Produktseite</a>: {productList}. Jedes hat eine eigene Seite mit Funktionsliste und Kaufabwicklung über unseren Partner."
+  },
+  {
+    "id": "what-is-esp",
+    "q": "Was ist Escape From Tarkov ESP?",
+    "a": "Spieler-ESP zeigt PMCs, Scavs und Bosse mit Kisten, Skeletten und Entfernungsanzeigen. Loot ESP hebt Container und wertvolle Gegenstände hervor.<a href=\"/cheats/\">Escape From Tarkov Cheats</a> umfasst Awareness-Overlays sowie optionale Aimbot- und keine Rückstoßmodule."
+  },
+  {
+    "id": "esp-vs-aim",
+    "q": "Was ist der Unterschied zwischen ESP und Aimbot?",
+    "a": "ESP- und Beute-Highlights sind Informationseinblendungen; Sie bewegen Ihr Fadenkreuz nicht. Aimbot, No Recoil und Trigger Bot sind Kampfhilfen für <a href=\"/cheats/\">Escape From Tarkov Cheats</a>, die separat im Lader eingestellt werden."
+  },
+  {
+    "id": "elite-slots",
+    "q": "Warum sind die Slots für Escape From Tarkov Cheats begrenzt?",
+    "a": "Escape From Tarkov Cheats ist ein privater Build mit direkter Entwicklerunterstützung und vorrangiger Patch-Bereitstellung. Begrenzte Slots halten die Patch-Zyklen kurz. Überprüfen Sie vor dem Bezahlen das Statusbanner."
+  },
+  {
+    "id": "stream-proof",
+    "q": "Kann OBS mein Overlay erfassen?",
+    "a": "Der Stream-Proof-Modus für <a href=\"/cheats/\">Escape From Tarkov Cheats</a> verbirgt Overlays von OBS und Discord-Freigaben. Testen Sie eine lokale Aufnahme, bevor Sie live gehen."
+  },
+  {
+    "id": "build-status",
+    "q": "Bleibt der Build nach jedem Patch online?",
+    "a": "Nein. Der Online-Status wird nur zum Zeitpunkt des Kaufs auf der Produktseite und im Statusbanner angezeigt. Stoppen Sie, wenn der Build nach einem BattlEye-Update anzeigt, dass er aktualisiert, getestet oder offline ist."
+  },
+  {
+    "id": "esp-safer",
+    "q": "Ist ESP unauffälliger als Aimbot?",
+    "a": "ESP ist oft weniger offensichtlich als Maxed Aimbot, aber es ist immer noch ein Betrug. BattlEye ignoriert Overlays nicht, weil Sie die Zielhilfe deaktiviert haben."
+  },
+  {
+    "id": "hwid-when",
+    "q": "Wann sollte ich den HWID-Spoofer zu meinem Setup hinzufügen?",
+    "a": "<a href=\"/hwid-spoofer/\">HWID-Spoofer</a> ist für Hardware-Banns: Neue Accounts werden auf einem PC sofort gebannt, funktionieren aber auf einem anderen. Er ändert Festplatten-Seriennummern, MAC-Adressen, GPU-IDs und verwandte Kennungen und enthält einen Cleaner. Einen Bann auf einem bestehenden Account hebt er nicht auf."
+  },
+  {
+    "id": "external-loader",
+    "q": "Wird der Loader in den Spieleordner eingeschleust?",
+    "a": "{siteName} läuft extern mit Cloud-Konfigurationssynchronisierung, es werden keine Dateien in das Escape From Tarkov-Verzeichnis eingefügt. Das BattlEye-Risiko besteht weiterhin. Siehe <a href=\"/cheats/\">Escape From Tarkov Cheats</a>."
+  },
+  {
+    "id": "blog-vs-cheats",
+    "q": "Sind Blog-Cheat-Codes dasselbe wie Live-Raid-Cheats?",
+    "a": "Nein. Blogartikel über Offline- oder lokale Tests ersetzen nicht den Live Loader. PMC-Raids verwenden <a href=\"/cheats/\">Escape From Tarkov Cheats</a>, wenn der Status online ist."
+  },
+  {
+    "id": "blog-setup",
+    "q": "Wo empfehlen Blog-Setup-Anleitungen den Kauf?",
+    "a": "Die Guides verlinken auf die Produktseiten, zum Beispiel <a href=\"/cheats/\">{cheatProduct}</a>. Der Checkout läuft über unseren Partner. Nutze nie Loader-Dateien aus zufälligen Discord-DMs."
+  },
+  {
+    "id": "who-cheats",
+    "q": "Wer sollte Escape From Tarkov Cheats kaufen?",
+    "a": "PMC-Raider, die Spieler-ESP, Beute-ESP, Aimbot, keinen Rückstoß und vorrangige Patch-Lieferung wünschen, wenn Plätze frei sind."
+  },
+  {
+    "id": "vac-update",
+    "q": "Was soll ich nach einem BattlEye-Update tun?",
+    "a": "Überprüfen Sie den Status von {siteDomain} und den #Status von Discord. Starten Sie es erst, wenn das Banner online angezeigt wird. Laden Sie nach jedem Patch konservative Voreinstellungen."
+  },
+  {
+    "id": "discord-help",
+    "q": "Wie erhalte ich Installationshilfe?",
+    "a": "Öffnen Sie Discord nach dem Kauf mit Ihrer Bestell-E-Mail, der Windows-Version und dem Escape From Tarkov-Client-Build. Die Mitarbeiter gehen live durch die Einrichtung des Laders."
+  },
+  {
+    "id": "pmc-scav-raids",
+    "q": "Funktionieren Module in PMC- und Scav-Raids?",
+    "a": "Ja.<a href=\"/cheats/\">Escape From Tarkov Cheats</a> enthält PMC- und Scav-Voreinstellungen im Portal. Passen Sie die ESP-Entfernungsgrenzen und die Zielglättung vor Ihrem ersten Angriff an."
+  },
+  {
+    "id": "zoom-hack",
+    "q": "Welche Stufe umfasst Radar und Extrakt-ESP?",
+    "a": "2D-Radar und Extraktionsmarker sind in <a href=\"/cheats/\">Escape From Tarkov Cheats</a> enthalten. Nutze sie zur Orientierung zwischen Gefechten und zur Planung deiner Extracts."
+  },
+  {
+    "id": "trigger-bot",
+    "q": "Enthält das Produkt einen Trigger-Bot?",
+    "a": "Der optionale Trigger-Bot wird zusammen mit dem Aimbot und ohne Rückstoß mit <a href=\"/cheats/\">Escape From Tarkov Cheats</a> geliefert. Beginnen Sie mit konservativen Verzögerungsvoreinstellungen im Portal."
+  },
+  {
+    "id": "private-cheats",
+    "q": "Was sind private Escape From Tarkov-Cheats?",
+    "a": "Privat bedeutet Schlüssel pro Benutzer und verwaltete Builds, keine öffentlichen Zip-Pakete. {siteName} liefert die Portalbereitstellung für die vollständige Raid-Suite mit einer Cheats-Lizenz."
+  },
+  {
+    "id": "faq-more",
+    "q": "Wo ist die vollständige FAQ?",
+    "a": "Diese Website enthält Landing-FAQs und Abschnitte pro Seite. Alle Produkt-, Cheat- und Blog-Antworten finden Sie in den <a href=\"/faq/\">vollständigen FAQ</a> oder in den <a href=\"/blog/\">Blog-Anleitungen</a> für ausführliche Anleitungen."
+  },
+  {
+    "id": "ugc-what",
+    "q": "Was macht UGC genau?",
+    "a": "<a href=\"/ugc/\">UGC</a> (Unban & Governance Control) ist ein Tool zur Account-Wiederherstellung. Du baust eigene Einspruchs-Workflows und automatisierst Streitverfahren für gesperrte Accounts auf jeder Plattform: Gaming-Profile, Social-Media-Accounts oder Marktplatz-Shops."
+  },
+  {
+    "id": "ugc-guarantee",
+    "q": "Garantiert UGC, dass mein Account entsperrt wird?",
+    "a": "Nein. UGC hilft dir, Einsprüche vorzubereiten und zu verwalten, aber die prüfende Plattform entscheidet, und manche Banns sind endgültig. Kein Tool kann ein Ergebnis versprechen."
+  },
+  {
+    "id": "ugc-vs-hwid",
+    "q": "Soll ich UGC oder den HWID Spoofer kaufen?",
+    "a": "Das hängt davon ab, was gebannt wurde. Hat die Plattform deinen Account gesperrt, ist <a href=\"/ugc/\">UGC</a> für den Einspruch da. Werden neue Accounts auf einem PC sofort gebannt, funktionieren aber auf einem anderen, hängt der Bann an deiner Hardware und <a href=\"/hwid-spoofer/\">HWID Spoofer</a> ist das Richtige."
+  },
+  {
+    "id": "skin-visible",
+    "q": "Landen Skins aus dem Skin Changer in meinem Account?",
+    "a": "Nein. <a href=\"/skin-changer/\">Skin Changer</a> schaltet Kosmetik in deinem eigenen Spielclient frei. Deinem Account wird nichts hinzugefügt, die Items lassen sich weder tauschen noch verkaufen. Geh davon aus, dass andere Spieler sie nicht sehen."
+  },
+  {
+    "id": "skin-games",
+    "q": "Welche Spiele unterstützt der Skin Changer?",
+    "a": "Er funktioniert in mehreren großen Titeln, die Abdeckung kann sich nach Spiel-Updates ändern. Lass dir dein Spiel vor dem Kauf vom Support bestätigen."
+  },
+  {
+    "id": "utility-requirements",
+    "q": "Welche Windows-Einstellungen brauchen die Tools?",
+    "a": "Windows 10 oder 11 mit aktiviertem HVCI, Core Isolation, TPM und Secure Boot. Aktiviere sie vor dem ersten Start in der Windows-Sicherheit und im BIOS/UEFI. Jede Produktseite nennt die genauen Anforderungen."
+  }
+]

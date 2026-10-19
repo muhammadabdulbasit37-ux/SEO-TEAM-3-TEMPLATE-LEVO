@@ -1,0 +1,54 @@
+{
+  "/": {
+    "title": "Trucos Escape From Tarkov | ESP, aimbot y loot ESP",
+    "description": "ESP de jugadores, loot ESP, aimbot y sin retroceso para incursiones PMC en Windows, con actualizaciones del loader tras parches. Compara planes en {siteDomain}."
+  },
+  "/cheats/": {
+    "title": "Trucos Escape From Tarkov | Comprar ESP, loot ESP y aimbot",
+    "description": "Paquete de incursiones con ESP, filtros de botín, aimbot y sin retroceso en Tarkov, no Arena. Planes en {siteDomain}."
+  },
+  "/hwid-spoofer/": {
+    "title": "HWID Spoofer | Recuperación de baneos de hardware",
+    "description": "Cambia identificadores de disco, MAC y GPU tras un baneo de hardware. Vanguard, EAC, BattlEye y Ricochet, con limpiador. Planes en {siteDomain}."
+  },
+  "/products/": {
+    "title": "Trucos y herramientas | Todos los productos",
+    "description": "Compara todos los productos de {siteDomain}: funciones, requisitos, planes y pago a través de nuestro socio."
+  },
+  "/ugc/": {
+    "title": "UGC Recuperación de cuentas | Apelaciones y desbaneos",
+    "description": "Flujos de apelación y disputas automáticas para cuentas restringidas de juegos y marketplaces. Planes en {siteDomain}."
+  },
+  "/skin-changer/": {
+    "title": "Skin Changer | Desbloquea skins de armas y atuendos",
+    "description": "Desbloquea skins premium de armas, atuendos y cuchillos raros en los principales títulos. Planes en {siteDomain}."
+  },
+  "/blog/": {
+    "title": "Guías de trucos Escape From Tarkov | ESP, aimbot y BattlEye",
+    "description": "Guías de presets para incursiones, ajuste de ESP y aim, filtros de botín y checklists de estado de BattlEye publicadas en {siteDomain}."
+  },
+  "/forum/": {
+    "title": "Foro de trucos Escape From Tarkov | Setup, estado e HWID",
+    "description": "Discusiones de solo lectura sobre Escape From Tarkov: equipamiento, parches y guías. Los hilos nuevos y las respuestas están cerrados."
+  },
+  "/faq/": {
+    "title": "FAQ de trucos Escape From Tarkov | Setup, planes y BattlEye",
+    "description": "Respuestas sobre trucos de Escape From Tarkov: setup, planes, ESP, aim, BattlEye y pago en {siteDomain}."
+  },
+  "/terms/": {
+    "title": "Condiciones de venta y uso de licencia",
+    "description": "Reglas de reembolso, límites de licencia, entrega de pago y divulgación de riesgos para productos vendidos a través de {siteDomain}."
+  },
+  "/privacy/": {
+    "title": "Política de privacidad | Analítica y datos de soporte",
+    "description": "Cómo utiliza {siteDomain} las cookies, los análisis y la información que usted envía al abrir un ticket de soporte."
+  },
+  "/about/": {
+    "title": "Acerca de {siteDomain} y {siteName}",
+    "description": "Quién publica recursos, notas de estado y canales de soporte de Trucos de Escape From Tarkov en {siteDomain}."
+  },
+  "/support/": {
+    "title": "Soporte de trucos Escape From Tarkov | Loader, HWID y pagos",
+    "description": "Discord en {siteDomain} para acceso al portal, errores de módulos y facturación, antes o después del pago."
+  }
+}

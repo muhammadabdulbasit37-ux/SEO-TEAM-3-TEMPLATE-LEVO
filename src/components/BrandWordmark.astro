@@ -1,0 +1,14 @@
+---
+import { SITE_NAME } from '../config/site';
+
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+const splitAt = SITE_NAME.indexOf(' ');
+const lead = splitAt > 0 ? SITE_NAME.slice(0, splitAt) : SITE_NAME;
+const accent = splitAt > 0 ? SITE_NAME.slice(splitAt + 1) : '';
+---
+
+<span class={className} aria-hidden="true">{lead}{accent && <span class="text-primary">{accent}</span>}</span>

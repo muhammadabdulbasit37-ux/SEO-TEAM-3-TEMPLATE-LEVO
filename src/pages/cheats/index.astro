@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CHEATS_PRIMARY_SLUG } from '../../config/catalog';
+import { getProductPage } from '../../data/products';
+import { resolvePageSeo } from '../../config/seo';
+import { breadcrumbSchema, productSchema } from '../../utils/schema';
+import ProductDetail from '../../components/ProductDetail.astro';
+import { useLocale } from '../../i18n';
+import { getFeaturedPlan } from '../../data/productPricing';
+import { PRODUCT_BASE, PRODUCTS_HUB_PATH } from '../../config/site';
+
+const { locale, t, lp } = useLocale(Astro.currentLocale);
+const product = getProductPage(CHEATS_PRIMARY_SLUG, locale);
+
+if (!product) {
+  return Astro.redirect(lp('/'));
+}
+
+const pagePath = PRODUCT_BASE;
+const defaultPlan = getFeaturedPlan(product.slug);
+const productsLabel = t.nav.find((link) => link.id === 'products')?.label ?? t.common.breadcrumbProducts;
+const breadcrumbs = [
+  { name: t.common.breadcrumbHome, path: '/' },
+  { name: productsLabel, path: PRODUCTS_HUB_PATH },
+  { name: t.cheats.title, path: pagePath },
+];
+const seo = resolvePageSeo(pagePath, locale);
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  jsonLd={[
+    productSchema({
+      name: product.title,
+      description: product.desc,
+      url: lp(pagePath),
+      offerUrl: product.buyUrl,
+      image: product.images[0]?.src,
+      sku: product.slug,
+      locale,
+      priceUsd: defaultPlan?.priceUsd,
+    }),
+    breadcrumbSchema(breadcrumbs),
+  ]}
+>
+  <ProductDetail product={product} breadcrumbs={breadcrumbs} />
+</BaseLayout>
