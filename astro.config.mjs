@@ -7,6 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 import { customSitemapPageUrls, sitemapSerialize } from './src/config/sitemap.ts';
 import { pruneDist } from './scripts/prune-inline-css.mjs';
+import { uniqueAnchorTextsInDist } from './scripts/unique-anchor-texts.mjs';
 import { SITE_URL } from './src/config/site-url.mjs';
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
@@ -79,6 +80,20 @@ function pruneInlineCssIntegration() {
   };
 }
 
+function uniqueAnchorTextsIntegration() {
+  return {
+    name: 'unique-anchor-texts',
+    hooks: {
+      'astro:build:done': ({ dir }) => {
+        const result = uniqueAnchorTextsInDist(fileURLToPath(dir));
+        console.log(
+          `[unique-anchor-texts] disambiguated repeated anchors on ${result.files} pages (${result.suffixes} suffixes)`,
+        );
+      },
+    },
+  };
+}
+
 function deferredBootPlugin() {
   const marker = '__DEFERRED_BOOT_URL__';
   let refId = '';
@@ -134,6 +149,7 @@ export default defineConfig({
   integrations: [
     deferredBootUrlIntegration(),
     pruneInlineCssIntegration(),
+    uniqueAnchorTextsIntegration(),
     sitemap({
       customPages: customSitemapPageUrls(),
       filter: (page) => {
