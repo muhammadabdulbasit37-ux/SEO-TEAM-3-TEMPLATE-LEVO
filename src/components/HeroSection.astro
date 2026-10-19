@@ -71,7 +71,9 @@ const heroMarqueePills = [
       </div>
 
       <div class="mx-auto flex w-full max-w-xl flex-col items-center gap-5 lg:mx-0 lg:max-w-none lg:items-end">
-        {heroSlides.length > 0 && <ImageSlider images={heroSlides} id="hero-slider" />}
+        {heroSlides.length > 0 && (
+          <ImageSlider class="hero-slider--desktop" images={heroSlides} id="hero-slider" />
+        )}
         <div class="grid w-full grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-4 lg:grid-cols-2">
           {h.metrics.map((m, i) => (
             <div class="flex min-w-0 items-center gap-3 rounded-xl border border-border/80 bg-card/70 px-3 py-3 shadow-sm shadow-black/10 transition-colors hover:border-primary/40">

@@ -113,7 +113,8 @@ const heroAlt = post.imageAlt ?? post.title;
               height={540}
               loading="eager"
               fetchPriority="high"
-              sizes="(min-width: 768px) 720px, 100vw"
+              sizes="(min-width: 1024px) 720px, calc(100vw - 2.5rem)"
+              phoneWidth={400}
               class="w-full object-cover"
             />
           </figure>

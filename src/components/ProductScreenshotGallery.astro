@@ -64,7 +64,9 @@ function isVideo(slide: ProductSlide) {
                   height={540}
                   loading={priority && i === 0 ? 'eager' : 'lazy'}
                   fetchPriority={priority && i === 0 ? 'high' : undefined}
-                  sizes="(min-width: 1024px) 720px, 320px"
+                  widths={[640, 800, 960]}
+                  sizes="(min-width: 1024px) 760px, calc(100vw - 2.5rem)"
+                  phoneWidth={400}
                   class="media-slider__media"
                 />
               )}

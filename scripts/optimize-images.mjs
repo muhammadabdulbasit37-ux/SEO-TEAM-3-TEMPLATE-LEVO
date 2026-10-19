@@ -5,10 +5,10 @@ import sharp from 'sharp';
 const root = process.cwd();
 /** Widths each directory's pages request (see `src/utils/responsiveImage.ts`). */
 const dirs = [
-  { dir: 'public/images/gameplay', widths: [400, 512, 640, 960], quality: 75, effort: 6 },
-  { dir: 'public/images/hwid-spoofer', widths: [640, 960], quality: 82, effort: 4 },
-  { dir: 'public/images/ugc', widths: [640, 960], quality: 82, effort: 4 },
-  { dir: 'public/images/skin-changer', widths: [640, 960], quality: 82, effort: 4 },
+  { dir: 'public/images/gameplay', widths: [400, 512, 640, 800, 960], quality: 75, effort: 6 },
+  { dir: 'public/images/hwid-spoofer', widths: [400, 640, 800, 960], quality: 82, effort: 4 },
+  { dir: 'public/images/ugc', widths: [400, 640, 800, 960], quality: 82, effort: 4 },
+  { dir: 'public/images/skin-changer', widths: [400, 640, 800, 960], quality: 82, effort: 4 },
 ];
 const brandWidths = [32, 64, 128, 512];
 

@@ -171,7 +171,7 @@ export default defineConfig({
     },
   },
   build: {
-    /** External CSS keeps HTML under SEO size limits; fonts stay preloaded in BaseLayout. */
-    inlineStylesheets: 'auto',
+    /** Inline CSS so the stylesheet is not a second render-blocking request. prune-inline-css drops unused rules per page. */
+    inlineStylesheets: 'always',
   },
 });

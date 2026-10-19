@@ -1,10 +1,13 @@
 import { setupReveal } from './reveal';
 import { setupTheme } from './theme';
 
+const HERO_DESKTOP_MQ = '(min-width: 1024px)';
+
 const DEFERRED_BOOT_URL = '__DEFERRED_BOOT_URL__';
 
 let deferredLoad: Promise<void> | null = null;
 let deferredListenersBound = false;
+let heroDesktopListenerBound = false;
 
 function loadDeferred(): Promise<void> {
   if (deferredLoad) return deferredLoad;
@@ -237,8 +240,18 @@ function bootSite() {
   initSkipLink();
   initThemeMetaColor();
   scheduleIdle(() => initFaqFilters(), 1500);
-  if (document.querySelector('[data-hero-slider]')) {
+  const heroSlider = document.querySelector('[data-hero-slider]');
+  if (!heroSlider) return;
+
+  const desktop = window.matchMedia(HERO_DESKTOP_MQ);
+  const armHero = () => {
+    if (!desktop.matches) return;
     scheduleIdle(() => void loadDeferred(), 1200);
+  };
+  armHero();
+  if (!heroDesktopListenerBound) {
+    heroDesktopListenerBound = true;
+    desktop.addEventListener('change', armHero);
   }
 }
 

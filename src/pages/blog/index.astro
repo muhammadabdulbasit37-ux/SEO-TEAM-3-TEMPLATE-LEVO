@@ -30,7 +30,8 @@ const featured = getFeaturedBlogPost(locale);
 const gridPosts = getNonFeaturedBlogPosts(locale);
 const tags = getBlogTags(locale);
 const allPosts = getBlogPosts(locale);
-const lcpImage = featured?.image ? webpSrc(featured.image, CARD_IMAGE_WIDTHS[0]) : '';
+const lcpPhone = featured?.image ? webpSrc(featured.image, 400) : '';
+const lcpDesktop = featured?.image ? webpSrc(featured.image, CARD_IMAGE_WIDTHS[1]) : '';
 
 const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
 ---
@@ -48,7 +49,12 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     breadcrumbSchema(breadcrumbs),
   ]}
 >
-  {lcpImage && <link slot="head" rel="preload" as="image" href={lcpImage} type="image/webp" fetchpriority="high" />}
+  {lcpPhone && (
+    <link slot="head" rel="preload" as="image" href={lcpPhone} type="image/webp" media="(max-width: 639px)" fetchpriority="high" />
+  )}
+  {lcpDesktop && (
+    <link slot="head" rel="preload" as="image" href={lcpDesktop} type="image/webp" media="(min-width: 640px)" fetchpriority="high" />
+  )}
 
   <section class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">

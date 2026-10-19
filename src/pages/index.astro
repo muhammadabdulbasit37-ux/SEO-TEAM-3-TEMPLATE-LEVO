@@ -10,7 +10,7 @@ import { resolvePageSeo } from '../config/seo';
 import { faqPageSchema, organizationSchema, websiteSchema } from '../utils/schema';
 import { getLandingFaqs } from '../data/faq';
 import { getHeroSlides } from '../data/products';
-import { HERO_IMAGE_SIZES, HERO_IMAGE_WIDTHS, responsiveSrcSet, webpSrc } from '../utils/responsiveImage';
+import { HERO_DESKTOP_MQ, HERO_IMAGE_SIZES, HERO_IMAGE_WIDTHS, responsiveSrcSet, webpSrc } from '../utils/responsiveImage';
 
 const { locale, t } = useLocale(Astro.currentLocale);
 const seo = resolvePageSeo('/', locale);
@@ -40,6 +40,7 @@ const heroLcpSrcSet = heroSlide ? responsiveSrcSet(heroSlide.src, HERO_IMAGE_WID
     href={heroLcpImage}
     imagesrcset={heroLcpSrcSet}
     imagesizes={HERO_IMAGE_SIZES}
+    media={HERO_DESKTOP_MQ}
     type="image/webp"
     fetchpriority="high"
   />

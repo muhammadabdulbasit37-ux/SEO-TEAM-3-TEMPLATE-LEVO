@@ -1,5 +1,7 @@
 import { createCarousel } from '@starwind-ui/runtime/carousel';
 
+const HERO_DESKTOP_MQ = '(min-width: 1024px)';
+
 const AUTOPLAY_MS = 3000;
 const RESUME_AFTER_INTERACTION_MS = AUTOPLAY_MS;
 const FILL_ANIMATION = 'hero-slider-dot-progress';
@@ -158,10 +160,20 @@ export function initHeroSliders(root: ParentNode = document) {
 let listenersBound = false;
 
 export function setupHeroSliders() {
-  if (listenersBound) return;
+  const desktop = window.matchMedia(HERO_DESKTOP_MQ);
+
+  const run = () => {
+    if (!desktop.matches) return;
+    initHeroSliders();
+  };
+
+  if (listenersBound) {
+    run();
+    return;
+  }
   listenersBound = true;
 
-  const run = () => initHeroSliders();
+  desktop.addEventListener('change', run);
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', run, { once: true });

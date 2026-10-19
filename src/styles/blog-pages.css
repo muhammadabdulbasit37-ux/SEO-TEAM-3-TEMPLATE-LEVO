@@ -97,7 +97,8 @@
   .blog-featured__media {
     position: relative;
     align-self: stretch;
-    min-height: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 0;
     border-radius: var(--radius-xl) 0 0 var(--radius-xl);
   }
 

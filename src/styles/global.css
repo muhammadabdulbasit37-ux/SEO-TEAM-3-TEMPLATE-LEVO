@@ -289,6 +289,15 @@ html.dark a.nav-link[data-nav-link]:hover .icon-app {
   display: none;
 }
 
+/* Keep wrapped chips clear of the fixed header and of each other for 24px tap targets. */
+.faq-filter-row {
+  scroll-margin-top: 5.5rem;
+}
+
+.faq-filter-chip {
+  scroll-margin-top: 5.5rem;
+}
+
 .faq-filter-chip.is-active {
   background: var(--primary);
   color: var(--primary-foreground);
@@ -723,8 +732,8 @@ html.dark .text-primary {
 }
 
 /* Phone and tablet: skip styling sections that sit below the first screen
-   until they are about to scroll in. The hero, including the product image,
-   stays painted with the first frame. */
+   until they are about to scroll in. The hero copy stays painted with the first frame.
+   The gameplay carousel is desktop-only, so it is not part of the mobile first paint. */
 @media (max-width: 1023px) {
   #products,
   #why-us,
@@ -733,7 +742,6 @@ html.dark .text-primary {
   #faq,
   #product-features,
   #product-experience,
-  .product-detail > section:not(.product-detail-hero),
   footer {
     content-visibility: auto;
     contain-intrinsic-size: auto 32rem;
@@ -743,6 +751,14 @@ html.dark .text-primary {
   #features .features-bento > article {
     content-visibility: auto;
     contain-intrinsic-size: auto 16rem;
+  }
+}
+
+/* Homepage gameplay carousel: desktop only. Hidden here so it is not painted
+   or announced on phones and tablets even before Tailwind utilities apply. */
+@media (max-width: 1023px) {
+  .hero-slider--desktop {
+    display: none;
   }
 }
 

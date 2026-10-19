@@ -74,8 +74,9 @@ const panelId = (index: number) => `${id}-panel-${index}`;
                 height={540}
                 widths={HERO_IMAGE_WIDTHS}
                 loading={i === 0 ? 'eager' : 'lazy'}
-                fetchPriority={i === 0 ? 'high' : undefined}
+                fetchPriority={i === 0 ? 'high' : 'low'}
                 sizes={HERO_IMAGE_SIZES}
+                desktopOnly
                 class="h-full w-full object-cover"
               />
             </figure>
