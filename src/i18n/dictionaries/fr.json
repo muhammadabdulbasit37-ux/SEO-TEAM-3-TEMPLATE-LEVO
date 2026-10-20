@@ -449,6 +449,8 @@
     "checkoutSingle": "Possibilité d'achat",
     "checkoutTotal": "Total",
     "bestValue": "Meilleur rapport qualité-prix",
+    "planWeekly": "1 semaine",
+    "planWeeklyNote": "7 jours",
     "planMonthly": "Mensuel",
     "planLifetime": "Durée de vie",
     "planOneTime": "Accès unique",

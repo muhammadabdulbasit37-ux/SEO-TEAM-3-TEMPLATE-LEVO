@@ -57,11 +57,15 @@ const showDescToggle = descriptionBlocks.length > 2;
       <ProductDetailHeader product={product} />
     </div>
 
-    <div class="product-detail-hero__grid mt-10 grid items-start gap-8">
+    <div class:list={['product-detail-hero__grid mt-10 grid items-start gap-8', utilityCopy && 'product-detail-hero__grid--no-heading']}>
       <div class="product-detail-hero__preview min-w-0">
-        <h2 class="product-showcase-heading mb-4 font-[family-name:var(--font-heading)] text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-          {utilityCopy ? utilityCopy.showcaseHeading : t.products.showcaseHeading}
-        </h2>
+        {
+          !utilityCopy && (
+            <h2 class="product-showcase-heading mb-4 font-[family-name:var(--font-heading)] text-2xl font-bold tracking-tight text-foreground md:text-3xl">
+              {t.products.showcaseHeading}
+            </h2>
+          )
+        }
         <ProductScreenshotGallery images={product.images} id={`gallery-${product.slug}`} />
       </div>
       <ProductCheckoutPanel product={product} />

@@ -195,6 +195,8 @@ export interface Translations {
     checkoutSingle: string;
     checkoutTotal: string;
     bestValue: string;
+    planWeekly: string;
+    planWeeklyNote: string;
     planMonthly: string;
     planLifetime: string;
     planOneTime: string;

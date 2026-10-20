@@ -27,6 +27,7 @@ const { product } = Astro.props;
 const { t } = useLocale(Astro.currentLocale);
 const plans = getProductPlans(product.slug);
 const planCopy = (id: ProductPlanId) => {
+  if (id === 'weekly') return { label: t.products.planWeekly, priceNote: t.products.planWeeklyNote };
   if (id === 'monthly') return { label: t.products.planMonthly, priceNote: t.products.planPerMonth };
   if (id === 'lifetime') return { label: t.products.planLifetime, priceNote: t.products.planOneTimeNote };
   return { label: t.products.planOneTime, priceNote: t.products.planOneTimeNote };
@@ -34,7 +35,7 @@ const planCopy = (id: ProductPlanId) => {
 const localizedPlans = plans.map((plan) => ({
   ...plan,
   ...planCopy(plan.id),
-  badge: plan.recommended ? t.products.bestValue : plan.badge,
+  badge: plan.id === 'lifetime' ? t.products.bestValue : plan.badge,
 }));
 const defaultPlan = localizedPlans.find((plan) => plan.recommended) ?? localizedPlans[0]!;
 const isSinglePlan = localizedPlans.length === 1;

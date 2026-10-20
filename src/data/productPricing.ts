@@ -1,4 +1,4 @@
-export type ProductPlanId = 'monthly' | 'lifetime' | 'onetime';
+export type ProductPlanId = 'weekly' | 'monthly' | 'lifetime' | 'onetime';
 
 export interface ProductPlan {
   id: ProductPlanId;
@@ -10,19 +10,28 @@ export interface ProductPlan {
   badge?: string;
 }
 
-const standardPlans: ProductPlan[] = [
-  { id: 'monthly', label: 'Monthly', priceUsd: 35, priceNote: 'USD / month' },
-  {
-    id: 'lifetime',
-    label: 'Lifetime',
-    priceUsd: 150,
-    priceNote: 'USD · one-time',
-    recommended: true,
-    badge: 'Best value',
-  },
-];
+const weeklyPlan: ProductPlan = { id: 'weekly', label: '1 Week', priceUsd: 15, priceNote: '7 days' };
+const monthlyPlan: ProductPlan = { id: 'monthly', label: 'Monthly', priceUsd: 35, priceNote: 'USD / month' };
+const lifetimePlan: ProductPlan = {
+  id: 'lifetime',
+  label: 'Lifetime',
+  priceUsd: 150,
+  priceNote: 'USD · one-time',
+  recommended: true,
+  badge: 'Best value',
+};
 
-export function getProductPlans(_productSlug: string): ProductPlan[] {
+const standardPlans: ProductPlan[] = [monthlyPlan, lifetimePlan];
+
+/** No lifetime option, so the month plan stays preselected. */
+const weekAndMonthPlans: ProductPlan[] = [weeklyPlan, { ...monthlyPlan, recommended: true }];
+
+/** Lifetime is the highlighted plan whenever it is offered. */
+const weekMonthLifetimePlans: ProductPlan[] = [weeklyPlan, monthlyPlan, lifetimePlan];
+
+export function getProductPlans(productSlug: string): ProductPlan[] {
+  if (productSlug === 'hwid-spoofer') return weekAndMonthPlans;
+  if (productSlug === 'skin-changer' || productSlug === 'ugc') return weekMonthLifetimePlans;
   return standardPlans;
 }
 

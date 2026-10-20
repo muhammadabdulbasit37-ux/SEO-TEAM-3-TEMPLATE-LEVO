@@ -449,6 +449,8 @@
     "checkoutSingle": "Kaufoption",
     "checkoutTotal": "Insgesamt",
     "bestValue": "Bester Wert",
+    "planWeekly": "1 Woche",
+    "planWeeklyNote": "7 Tage",
     "planMonthly": "Monatlich",
     "planLifetime": "Lebenszeit",
     "planOneTime": "Einmaliger Zugriff",

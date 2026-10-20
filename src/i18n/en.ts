@@ -368,6 +368,8 @@ export const en: Translations = {
     checkoutSingle: 'Purchase option',
     checkoutTotal: 'Total',
     bestValue: 'Best value',
+    planWeekly: '1 Week',
+    planWeeklyNote: '7 days',
     planMonthly: 'Monthly',
     planLifetime: 'Lifetime',
     planOneTime: 'One-time access',

@@ -146,6 +146,15 @@
     margin-inline: 0;
   }
 
+  .product-detail-hero__grid--no-heading {
+    grid-template-rows: auto;
+  }
+
+  .product-detail-hero__grid--no-heading .media-slider,
+  .product-detail-hero__grid--no-heading .product-checkout {
+    grid-row: 1;
+  }
+
   .product-detail-hero__grid .product-checkout__card {
     flex: 1;
     min-height: 100%;

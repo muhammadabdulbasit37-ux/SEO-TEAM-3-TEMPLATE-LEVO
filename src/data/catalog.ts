@@ -34,7 +34,9 @@ export function getCatalog(locale: SiteLocale): CatalogEntry[] {
       icon: meta.icon,
       shortName: meta.shortName,
       page,
-      fromPriceUsd: Math.min(...plans.map((plan) => plan.priceUsd)),
+      fromPriceUsd:
+        plans.find((plan) => plan.id === 'monthly')?.priceUsd ??
+        Math.min(...plans.map((plan) => plan.priceUsd)),
       lifetimePriceUsd: plans.find((plan) => plan.id === 'lifetime')?.priceUsd,
     };
   });
