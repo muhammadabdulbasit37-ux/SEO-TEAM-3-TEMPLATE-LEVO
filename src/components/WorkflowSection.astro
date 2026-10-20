@@ -4,7 +4,6 @@ import { useLocale } from '../i18n';
 
 const { t, lp } = useLocale(Astro.currentLocale);
 import { Button } from '@/components/starwind/button';
-import { DISCORD_PATH } from '../config/checkout';
 
 const w = t.workflow;
 ---
@@ -40,16 +39,6 @@ const w = t.workflow;
           class="workflow-section__cta rounded-xl"
         >
           {w.ctaSecondary}
-        </Button>
-        <Button
-          as="a"
-          href={DISCORD_PATH}
-          variant="outline"
-          size="lg"
-          class="workflow-section__cta rounded-xl"
-          rel="nofollow"
-        >
-          {t.ui.joinDiscord}
         </Button>
       </div>
     </div>

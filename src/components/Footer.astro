@@ -5,17 +5,12 @@ import BrandLogo from './BrandLogo.astro';
 import BrandWordmark from './BrandWordmark.astro';
 import { GAME } from '../config/game';
 import { isProductHrefEnabled } from '../config/catalog';
-import { DISCORD_PATH } from '../config/checkout';
-
 const { t, lp } = useLocale(Astro.currentLocale);
 
 const [trademarkBefore, trademarkAfter = ''] = t.footer.trademark.split('{game}');
 const exploreLinks = t.footer.exploreLinks.filter((link) => isProductHrefEnabled(link.href));
 
-const supportLinks = [
-  ...t.footer.supportLinks,
-  { href: DISCORD_PATH, label: t.ui.joinDiscord, ariaLabel: t.ui.joinDiscord },
-];
+const supportLinks = t.footer.supportLinks;
 
 const legalLinks = [
   { href: '/about/', label: t.footer.about },

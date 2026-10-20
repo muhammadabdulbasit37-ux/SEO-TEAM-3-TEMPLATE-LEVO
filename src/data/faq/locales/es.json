@@ -2,7 +2,7 @@
   {
     "id": "status",
     "q": "¿Dónde verifico si los trucos de Escape From Tarkov están en línea?",
-    "a": "El banner de estado en vivo está en {siteDomain} y en el canal #status de Discord. Siempre verifique después de una actualización de Escape From Tarkov o BattlEye."
+    "a": "El banner de estado en vivo está en {siteDomain}. Siempre verifique después de una actualización de Escape From Tarkov o BattlEye."
   },
   {
     "id": "after-buy",
@@ -22,7 +22,7 @@
   {
     "id": "license-move",
     "q": "¿Puedo transferir mi licencia a una nueva PC?",
-    "a": "Sí, use el restablecimiento de HWID en su portal o abra un ticket de Discord. Los límites dependen de su nivel."
+    "a": "Sí, use el restablecimiento de HWID en su portal o abra un ticket de soporte. Los límites dependen de su nivel."
   },
   {
     "id": "products-page",
@@ -47,7 +47,7 @@
   {
     "id": "stream-proof",
     "q": "¿Puede OBS capturar mi superposición?",
-    "a": "El modo a prueba de transmisión en <a href=\"/cheats/\">Escape From Tarkov Cheats</a> oculta superposiciones de OBS y Discord share. Pruebe una grabación local antes de emitirla."
+    "a": "El modo a prueba de transmisión en <a href=\"/cheats/\">Escape From Tarkov Cheats</a> oculta superposiciones de OBS. Pruebe una grabación local antes de emitirla."
   },
   {
     "id": "build-status",
@@ -77,7 +77,7 @@
   {
     "id": "blog-setup",
     "q": "¿Dónde indican la compra las guías de configuración de blogs?",
-    "a": "Las guías enlazan con las páginas de producto, como <a href=\"/cheats/\">{cheatProduct}</a>. El pago se realiza a través de nuestro socio; nunca uses archivos del loader enviados por mensajes directos de Discord."
+    "a": "Las guías enlazan con las páginas de producto, como <a href=\"/cheats/\">{cheatProduct}</a>. El pago se realiza a través de nuestro socio; nunca uses archivos del loader enviados por mensajes al azar."
   },
   {
     "id": "who-cheats",
@@ -87,12 +87,12 @@
   {
     "id": "vac-update",
     "q": "¿Qué debo hacer después de una actualización de BattlEye?",
-    "a": "Verifique el estado de {siteDomain} y el #status de Discord. No lo inicie hasta que el banner se muestre en línea. Cargue ajustes preestablecidos conservadores después de cualquier parche."
+    "a": "Verifique el estado de {siteDomain}. No lo inicie hasta que el banner se muestre en línea. Cargue ajustes preestablecidos conservadores después de cualquier parche."
   },
   {
     "id": "discord-help",
     "q": "¿Cómo obtengo ayuda para la instalación?",
-    "a": "Abra Discord después de la compra con el correo electrónico de su pedido, la versión de Windows y la compilación del cliente Escape From Tarkov. El personal recorre en vivo la configuración del cargador."
+    "a": "Abra un ticket de soporte después de la compra con el correo electrónico de su pedido, la versión de Windows y la compilación del cliente Escape From Tarkov. El personal recorre la configuración del cargador desde ahí."
   },
   {
     "id": "pmc-scav-raids",

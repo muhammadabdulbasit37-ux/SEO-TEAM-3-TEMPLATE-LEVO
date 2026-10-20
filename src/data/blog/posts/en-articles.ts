@@ -210,7 +210,7 @@ export const blogPostsEn: BlogPostFull[] = [
       },
       {
         type: 'p',
-        text: 'Delivery and support. Delivery is instant after purchase, and you get a loader to use. If something goes wrong, you can open a ticket on the site or reach out on Discord with your order ID.',
+        text: 'Delivery and support. Delivery is instant after purchase, and you get a loader to use. If something goes wrong, you can open a ticket on the site with your order ID.',
       },
       {
         type: 'p',
@@ -273,7 +273,7 @@ export const blogPostsEn: BlogPostFull[] = [
       { type: 'h2', text: 'Questions to ask support before you buy' },
       {
         type: 'p',
-        text: 'If you are unsure, ask before you pay, not after. Good questions are what the current setup order is, what to do after a patch, and what information to include in a ticket. Support is available through a ticket on the site or on Discord. Include your order ID when you contact them.',
+        text: 'If you are unsure, ask before you pay, not after. Good questions are what the current setup order is, what to do after a patch, and what information to include in a ticket. Support is available through a ticket on the site. Include your order ID when you contact them.',
       },
       { type: 'h2', text: 'Next step' },
       {
@@ -341,7 +341,7 @@ export const blogPostsEn: BlogPostFull[] = [
       { type: 'h2', text: 'Making the decision' },
       {
         type: 'p',
-        text: 'Cheating carries risk, and you should decide with that in mind. If you decide to go ahead, the [Escape From Tarkov cheats](/cheats/) are sold for main raids with ESP, aimbot and misc features, and [Cloud DMA](/blog/tarkov-cloud-dma-explained-do-you-need-it/) is required for full functionality. Support is available by ticket or Discord if you need help with the current process.',
+        text: 'Cheating carries risk, and you should decide with that in mind. If you decide to go ahead, the [Escape From Tarkov cheats](/cheats/) are sold for main raids with ESP, aimbot and misc features, and [Cloud DMA](/blog/tarkov-cloud-dma-explained-do-you-need-it/) is required for full functionality. Support is available by ticket if you need help with the current process.',
       },
     ],
   },
@@ -483,7 +483,7 @@ export const blogPostsEn: BlogPostFull[] = [
       },
       {
         type: 'p',
-        text: 'Contact support. You can open a ticket on the site or use Discord. Include your order ID so they can find your purchase quickly. Describe what you did and what happened in plain terms.',
+        text: 'Contact support. You can open a ticket on the site. Include your order ID so they can find your purchase quickly. Describe what you did and what happened in plain terms.',
       },
       { type: 'h2', text: 'Config tips for new users' },
       {
@@ -560,7 +560,7 @@ export const blogPostsEn: BlogPostFull[] = [
       { type: 'h2', text: 'Get started' },
       {
         type: 'p',
-        text: 'You can review features and plans on the [streamproof Tarkov cheats](/cheats/) page. Check the status page after patches before you start a session, and contact support by ticket or Discord if your capture test shows anything unexpected.',
+        text: 'You can review features and plans on the [streamproof Tarkov cheats](/cheats/) page. Check the status page after patches before you start a session, and contact support by ticket if your capture test shows anything unexpected.',
       },
     ],
   },

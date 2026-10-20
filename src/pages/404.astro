@@ -4,7 +4,6 @@ import { useLocale } from '../i18n';
 import Icon from '../components/icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { ROUTES } from '../utils/path';
-import { DISCORD_PATH } from '../config/checkout';
 
 const { t, lp } = useLocale(Astro.currentLocale);
 ---
@@ -25,7 +24,6 @@ const { t, lp } = useLocale(Astro.currentLocale);
           <Icon name="arrowRight" size={17} />
         </Button>
         <Button as="a" href={lp(ROUTES.productsHub)} variant="outline">{t.notFound.viewProducts}</Button>
-        <Button as="a" href={DISCORD_PATH} variant="outline" rel="nofollow">{t.ui.joinDiscord}</Button>
         <Button as="a" href={lp(ROUTES.productsElite)} variant="outline">{t.notFound.viewElite}</Button>
       </div>
     </div>

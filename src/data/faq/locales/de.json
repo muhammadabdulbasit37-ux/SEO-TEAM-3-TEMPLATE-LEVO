@@ -2,7 +2,7 @@
   {
     "id": "status",
     "q": "Wo überprüfe ich, ob Escape From Tarkov-Cheats online sind?",
-    "a": "Das Live-Status-Banner befindet sich auf {siteDomain} und im Discord #status-Kanal. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
+    "a": "Das Live-Status-Banner befindet sich auf {siteDomain}. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
   },
   {
     "id": "after-buy",
@@ -22,7 +22,7 @@
   {
     "id": "license-move",
     "q": "Kann ich meine Lizenz auf einen neuen PC übertragen?",
-    "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Discord-Ticket. Die Limits hängen von Ihrer Stufe ab."
+    "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Support-Ticket. Die Limits hängen von Ihrer Stufe ab."
   },
   {
     "id": "products-page",
@@ -47,7 +47,7 @@
   {
     "id": "stream-proof",
     "q": "Kann OBS mein Overlay erfassen?",
-    "a": "Der Stream-Proof-Modus für <a href=\"/cheats/\">Escape From Tarkov Cheats</a> verbirgt Overlays von OBS und Discord-Freigaben. Testen Sie eine lokale Aufnahme, bevor Sie live gehen."
+    "a": "Der Stream-Proof-Modus für <a href=\"/cheats/\">Escape From Tarkov Cheats</a> verbirgt Overlays von OBS. Testen Sie eine lokale Aufnahme, bevor Sie live gehen."
   },
   {
     "id": "build-status",
@@ -77,7 +77,7 @@
   {
     "id": "blog-setup",
     "q": "Wo empfehlen Blog-Setup-Anleitungen den Kauf?",
-    "a": "Die Guides verlinken auf die Produktseiten, zum Beispiel <a href=\"/cheats/\">{cheatProduct}</a>. Der Checkout läuft über unseren Partner. Nutze nie Loader-Dateien aus zufälligen Discord-DMs."
+    "a": "Die Guides verlinken auf die Produktseiten, zum Beispiel <a href=\"/cheats/\">{cheatProduct}</a>. Der Checkout läuft über unseren Partner. Nutze nie Loader-Dateien aus zufälligen Nachrichten."
   },
   {
     "id": "who-cheats",
@@ -87,12 +87,12 @@
   {
     "id": "vac-update",
     "q": "Was soll ich nach einem BattlEye-Update tun?",
-    "a": "Überprüfen Sie den Status von {siteDomain} und den #Status von Discord. Starten Sie es erst, wenn das Banner online angezeigt wird. Laden Sie nach jedem Patch konservative Voreinstellungen."
+    "a": "Überprüfen Sie den Status von {siteDomain}. Starten Sie es erst, wenn das Banner online angezeigt wird. Laden Sie nach jedem Patch konservative Voreinstellungen."
   },
   {
     "id": "discord-help",
     "q": "Wie erhalte ich Installationshilfe?",
-    "a": "Öffnen Sie Discord nach dem Kauf mit Ihrer Bestell-E-Mail, der Windows-Version und dem Escape From Tarkov-Client-Build. Die Mitarbeiter gehen live durch die Einrichtung des Laders."
+    "a": "Öffnen Sie nach dem Kauf ein Support-Ticket mit Ihrer Bestell-E-Mail, der Windows-Version und dem Escape From Tarkov-Client-Build. Die Mitarbeiter gehen von dort durch die Einrichtung des Laders."
   },
   {
     "id": "pmc-scav-raids",

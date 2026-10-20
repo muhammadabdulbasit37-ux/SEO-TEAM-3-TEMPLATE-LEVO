@@ -227,7 +227,7 @@
         "bullets": [
           "Copia de seguridad en la nube para perfiles deslizantes",
           "Empuje del cargador a pocas horas de los parches",
-          "Discord #status para notas de compilación"
+          "Banner de estado para notas de compilación"
         ],
         "tags": [
           "cloud sync",
@@ -241,20 +241,20 @@
   "whyUs": {
     "eyebrow": "¿Por qué nosotros?",
     "title": "Herramientas de incursión respaldadas por parches, no por promesas",
-    "subtitle": "Muchas tiendas de trampas ofrecen cargadores obsoletos, ajustes preestablecidos de ira obvios y robots de tickets. {siteDomain} se centra en compilaciones de cargadores del día del parche, ESP conservadores y valores predeterminados de objetivos, y operadores de Discord en vivo.",
+    "subtitle": "Muchas tiendas de trampas ofrecen cargadores obsoletos, ajustes preestablecidos de ira obvios y robots de tickets. {siteDomain} se centra en compilaciones de cargadores del día del parche, ESP conservadores y valores predeterminados de objetivos, y operadores en vivo.",
     "usLabel": "{siteName}",
     "otherLabel": "Proveedor típico",
     "rows": [
       {
         "title": "Actualizaciones del cargador del día del parche",
-        "desc": "Construcciones compatibles con BattlEye lanzadas pocas horas después de las actualizaciones de Escape From Tarkov; Verifique el #estado de Discord antes de ingresar a una incursión."
+        "desc": "Construcciones compatibles con BattlEye lanzadas pocas horas después de las actualizaciones de Escape From Tarkov; Verifique el banner de estado en vivo antes de ingresar a una incursión."
       },
       {
         "title": "Objetivo humanizado y valores predeterminados de ESP",
         "desc": "Los límites de campo de visión, los filtros de suavizado y de distancia se envían de forma conservadora en el portal para que las superposiciones sigan siendo legibles, no los modos furiosos de pared de caja."
       },
       {
-        "title": "Operadores de Discord en vivo",
+        "title": "Operadores en vivo",
         "desc": "Ingenieros reales para la configuración del cargador, configuraciones de raid y restablecimientos de HWID: cobertura de turnos 24 horas al día, 7 días a la semana, sin copiar y pegar tickets de preguntas frecuentes."
       },
       {
@@ -267,7 +267,7 @@
       },
       {
         "title": "Restablecimiento de HWID y movimientos de licencia",
-        "desc": "Las compensaciones de HWID y las transferencias de máquinas se manejan a través de operaciones de Discord; la mayoría de los proveedores bloquean una plataforma o cobran por cada intercambio."
+        "desc": "Las compensaciones de HWID y las transferencias de máquinas se manejan a través del soporte; la mayoría de los proveedores bloquean una plataforma o cobran por cada intercambio."
       }
     ],
     "metrics": [
@@ -279,7 +279,7 @@
       {
         "value": "24/7",
         "title": "Soporte del operador",
-        "desc": "Ingenieros de Discord en turno para la instalación, las configuraciones y los problemas de la cuenta."
+        "desc": "Ingenieros en turno para la instalación, las configuraciones y los problemas de la cuenta."
       },
       {
         "value": "300+",
@@ -292,7 +292,7 @@
     "eyebrow": "Guía de configuración",
     "titleLead": "Desde el pago hasta tu primer raid en tan solo",
     "titleHighlight": "tres sencillos pasos",
-    "intro": "Empezar es fácil. Siga el flujo del portal del operador para descargar el cargador, cargar ajustes preestablecidos e iniciar Escape From Tarkov en Windows, con ayuda en vivo de Discord si algo lo bloquea.",
+    "intro": "Empezar es fácil. Siga el flujo del portal del operador para descargar el cargador, cargar ajustes preestablecidos e iniciar Escape From Tarkov en Windows.",
     "ctaPrimary": "Ver productos",
     "ctaSecondary": "Preguntas frecuentes sobre la configuración",
     "ctaPrimaryHref": "/cheats/",
@@ -325,7 +325,6 @@
       "Cliente BattlEye",
       "Actualizador automático",
       "Configurar sincronización en la nube",
-      "Soporte de discordia",
       "Restablecimiento de HWID",
       "Cargador externo"
     ]
@@ -589,13 +588,6 @@
         "desc": "Compatibilidad, baneos y configuración, antes de comprar.",
         "linkLabel": "Ver todas las preguntas frecuentes",
         "href": "/faq/"
-      },
-      {
-        "icon": "clock",
-        "title": "Operadores en vivo",
-        "desc": "Ingenieros de Discord en turno 24 horas al día, 7 días a la semana.",
-        "linkLabel": "Unirse a Discord",
-        "href": "/support/"
       }
     ],
     "ticketTitle": "Incluir en tu billete",
@@ -622,7 +614,7 @@
       {
         "num": "01",
         "q": "¿Dónde verifico si los trucos de Escape From Tarkov están en línea?",
-        "a": "El banner de estado en vivo está en {siteDomain} y en el canal #status de Discord. Siempre verifique después de una actualización de Escape From Tarkov o BattlEye."
+        "a": "El banner de estado en vivo está en {siteDomain}. Siempre verifique después de una actualización de Escape From Tarkov o BattlEye."
       },
       {
         "num": "02",
@@ -642,7 +634,7 @@
       {
         "num": "05",
         "q": "¿Puedo trasladar mi licencia a una nueva PC?",
-        "a": "Sí, use el restablecimiento de HWID en su portal o abra un ticket de Discord. Los límites dependen de su nivel."
+        "a": "Sí, use el restablecimiento de HWID en su portal o abra un ticket de soporte. Los límites dependen de su nivel."
       },
       {
         "num": "06",
@@ -722,13 +714,13 @@
           "heading": "lo que publicamos",
           "paragraphs": [
             "Nuestro sitio cubre los trucos de Escape From Tarkov y HWID Spoofer. Los artículos del blog explican las configuraciones de raid, las comprobaciones del día del parche y el comportamiento de actualización de BattlEye.",
-            "El contenido se actualiza cuando llegan los parches o cuando los módulos del cargador cambian. Verifique el banner de estado de la página de inicio y el #status de Discord antes de cada sesión."
+            "El contenido se actualiza cuando llegan los parches o cuando los módulos del cargador cambian. Verifique el banner de estado de la página de inicio antes de cada sesión."
           ]
         },
         {
           "heading": "Apoyo",
           "paragraphs": [
-            "Las preguntas sobre compatibilidad, errores del cargador o pago se manejan a través de Discord y soporte por correo electrónico. Incluya el correo electrónico de su pedido, la cuenta del juego y la versión de Windows al abrir un boleto."
+            "Las preguntas sobre compatibilidad, errores del cargador o pago se manejan a través del soporte por correo electrónico. Incluya el correo electrónico de su pedido, la cuenta del juego y la versión de Windows al abrir un boleto."
           ]
         }
       ]
@@ -914,7 +906,6 @@
   "ui": {
     "skipLink": "Saltar al contenido principal",
     "browseCheatsNav": "Pruébalo ahora",
-    "joinDiscord": "Unirse a Discord",
     "homeAria": "EFTCHEATS inicio",
     "menuOpen": "abrir menú",
     "themeLight": "Cambiar al modo de luz",

@@ -178,7 +178,7 @@ const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
     title: 'Review current status',
-    desc: 'Check the live banner on {siteDomain} and Discord #status before purchase, especially after an Escape From Tarkov or BattlEye update.',
+    desc: 'Check the live banner on {siteDomain} before purchase, especially after an Escape From Tarkov or BattlEye update.',
   },
   {
     num: '02',
@@ -188,7 +188,7 @@ const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '03',
     title: 'Contact the team',
-    desc: 'Open Discord and confirm availability, Windows setup, and payment details with your order email ready.',
+    desc: 'Contact support and confirm availability, Windows setup, and payment details with your order email ready.',
   },
   {
     num: '04',
@@ -344,7 +344,7 @@ const tierAbout: Record<string, ProductPage['about']> = {
     { type: 'h2', text: 'Tune before you queue' },
     {
       type: 'p',
-      text: 'Load portal presets offline first, then raise ESP distance and aim smoothing over several sessions. Discord staff help with loader tabs if a module conflicts after a BattlEye patch.',
+      text: 'Load portal presets offline first, then raise ESP distance and aim smoothing over several sessions. Support can help with loader tabs if a module conflicts after a BattlEye patch.',
     },
   ],
 };

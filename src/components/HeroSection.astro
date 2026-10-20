@@ -10,7 +10,6 @@ import { compatibilityIcons, heroStatIcons, heroStatusPillIcons } from '../data/
 import ImageSlider from './ImageSlider.astro';
 import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
-import { DISCORD_PATH } from '../config/checkout';
 import { Badge } from '@/components/starwind/badge';
 
 const h = t.hero;
@@ -63,9 +62,6 @@ const heroMarqueePills = [
           >
             {h.ctaPrimary}
             <Icon name="arrowRight" size={18} />
-          </Button>
-          <Button as="a" href={DISCORD_PATH} variant="outline" size="lg" class="rounded-xl" rel="nofollow">
-            {t.ui.joinDiscord}
           </Button>
         </div>
       </div>

@@ -49,7 +49,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqStatus',
     q: 'Where do I check if Escape From Tarkov cheats are online?',
-    a: a('The live status banner is on {siteDomain} and in the Discord #status channel. Always check after an Escape From Tarkov or BattlEye update.'),
+    a: a('The live status banner is on {siteDomain}. Always check after an Escape From Tarkov or BattlEye update.'),
   },
   {
     id: 'after-buy',
@@ -78,7 +78,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqLicenseMove',
     q: 'Can I move my license to a new PC?',
-    a: a('Yes, use the HWID reset in your portal or open a Discord ticket. Limits depend on your tier.'),
+    a: a('Yes, use the HWID reset in your portal or open a support ticket. Limits depend on your tier.'),
   },
   {
     id: 'products-page',
@@ -168,7 +168,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqStreamProof',
     q: 'Can OBS capture my overlay?',
-    a: `Stream-proof mode on ${cheats} hides overlays from OBS and Discord share. Test a local recording before going live.`,
+    a: `Stream-proof mode on ${cheats} hides overlays from OBS. Test a local recording before going live.`,
   },
   {
     id: 'build-status',
@@ -212,7 +212,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'blog',
     icon: 'faqBlogSetup',
     q: 'Where do blog setup guides point for purchase?',
-    a: `Guides link to the product pages, such as ${cheats}. Checkout runs through our partner, never paste loader files from random Discord DMs.`,
+    a: `Guides link to the product pages, such as ${cheats}. Checkout runs through our partner, never paste loader files from random messages.`,
   },
   {
     id: 'who-cheats',
@@ -227,14 +227,14 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'safety',
     icon: 'faqVacUpdate',
     q: 'What should I do after a BattlEye update?',
-    a: a('Check {siteDomain} status and Discord #status. Do not launch until the banner shows online. Load conservative presets after any patch.'),
+    a: a('Check {siteDomain} status. Do not launch until the banner shows online. Load conservative presets after any patch.'),
   },
   {
     id: 'discord-help',
     topic: 'setup',
-    icon: 'faqDiscordHelp',
+    icon: 'headphones',
     q: 'How do I get install help?',
-    a: a('Open Discord after purchase with your order email, Windows version and Escape From Tarkov client build. Staff walk through loader setup live.'),
+    a: a('Open a support ticket after purchase with your order email, Windows version and Escape From Tarkov client build. Staff walk through loader setup from there.'),
   },
   {
     id: 'pmc-scav-raids',
@@ -332,7 +332,7 @@ const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
       topic: 'blog',
       icon: 'faqBlogGuideStatus',
       q: 'Is this guide still valid after a patch?',
-      a: a('Check the article date and the live status banner. Patch-day articles note when modules change: Discord #status has the latest build notes.'),
+      a: a('Check the article date and the live status banner. Patch-day articles note when modules change. The status banner has the latest build notes.'),
     },
   ],
   Setup: [
@@ -357,7 +357,7 @@ const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
       topic: 'blog',
       icon: 'faqBlogSecVac',
       q: 'Does this article mean the build stays online?',
-      a: a('No article replaces the live status banner. Check {siteDomain} and Discord #status after every patch before you launch.'),
+      a: a('No article replaces the live status banner. Check {siteDomain} after every patch before you launch.'),
     },
   ],
 };
@@ -375,7 +375,7 @@ const defaultBlogFaqs: SiteFaqItem[] = [
     topic: 'blog',
     icon: 'faqBlogDefault2',
     q: 'Need help applying this guide?',
-    a: a('Open Discord with your order email and the article slug. Staff reference the same portal presets mentioned in guides.'),
+    a: a('Open a support ticket with your order email and the article slug. Staff reference the same portal presets mentioned in guides.'),
   },
   {
     id: 'blog-default-3',

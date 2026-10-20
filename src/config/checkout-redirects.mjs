@@ -7,7 +7,6 @@ export const CHECKOUT_URLS = {
   hwidSpoofer: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fhwid-spoofer',
   skinChanger: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fskin-changer',
   ugc: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fugc',
-  discord: 'https://discord.com/invite/Vu85F8auQS',
 };
 
 const EFT_CHECKOUT = CHECKOUT_URLS.eftCheats;
@@ -26,8 +25,6 @@ export const CHECKOUT_PATH_REDIRECTS = new Map([
   ['/go/skin-changer/', CHECKOUT_URLS.skinChanger],
   ['/go/ugc', CHECKOUT_URLS.ugc],
   ['/go/ugc/', CHECKOUT_URLS.ugc],
-  ['/go/discord', CHECKOUT_URLS.discord],
-  ['/go/discord/', CHECKOUT_URLS.discord],
 ]);
 
 function stripLocaleFromCheckoutPath(pathname) {

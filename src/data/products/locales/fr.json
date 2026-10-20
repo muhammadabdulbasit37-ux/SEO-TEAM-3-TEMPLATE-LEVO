@@ -5,7 +5,7 @@
     {
       "num": "01",
       "title": "Vérifier l'état actuel",
-      "desc": "Vérifiez la bannière en direct sur {siteDomain} et Discord #status avant l'achat, surtout après une mise à jour d'Escape From Tarkov ou de BattlEye."
+      "desc": "Vérifiez la bannière en direct sur {siteDomain} avant l'achat, surtout après une mise à jour d'Escape From Tarkov ou de BattlEye."
     },
     {
       "num": "02",
@@ -15,7 +15,7 @@
     {
       "num": "03",
       "title": "Contactez l'équipe",
-      "desc": "Ouvrez Discord et confirmez la disponibilité, la configuration de Windows et les détails de paiement avec votre e-mail de commande prêt."
+      "desc": "Contactez le support et confirmez la disponibilité, la configuration de Windows et les détails de paiement avec votre e-mail de commande prêt."
     },
     {
       "num": "04",
@@ -60,7 +60,7 @@
         },
         {
           "type": "p",
-          "text": "Chargez d'abord les préréglages du portail hors ligne, puis augmentez la distance ESP et visez le lissage sur plusieurs sessions. Le personnel de Discord aide avec les onglets du chargeur si un module entre en conflit après un patch BattlEye."
+          "text": "Chargez d'abord les préréglages du portail hors ligne, puis augmentez la distance ESP et visez le lissage sur plusieurs sessions. Le support aide avec les onglets du chargeur si un module entre en conflit après un patch BattlEye."
         }
       ],
       "body": [

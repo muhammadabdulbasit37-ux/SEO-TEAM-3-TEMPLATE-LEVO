@@ -5,7 +5,7 @@
     {
       "num": "01",
       "title": "Überprüfen Sie den aktuellen Status",
-      "desc": "Überprüfen Sie vor dem Kauf das Live-Banner auf {siteDomain} und Discord #status, insbesondere nach einem Escape From Tarkov- oder BattlEye-Update."
+      "desc": "Überprüfen Sie vor dem Kauf das Live-Banner auf {siteDomain}, insbesondere nach einem Escape From Tarkov- oder BattlEye-Update."
     },
     {
       "num": "02",
@@ -15,7 +15,7 @@
     {
       "num": "03",
       "title": "Kontaktieren Sie das Team",
-      "desc": "Öffnen Sie Discord und bestätigen Sie die Verfügbarkeit, die Windows-Einrichtung und die Zahlungsdetails, während Ihre Bestell-E-Mail bereit ist."
+      "desc": "Kontaktieren Sie den Support und bestätigen Sie die Verfügbarkeit, die Windows-Einrichtung und die Zahlungsdetails, während Ihre Bestell-E-Mail bereit ist."
     },
     {
       "num": "04",
@@ -60,7 +60,7 @@
         },
         {
           "type": "p",
-          "text": "Laden Sie die Portalvoreinstellungen zunächst offline, erhöhen Sie dann die ESP-Distanz und die Zielglättung über mehrere Sitzungen hinweg. Discord-Mitarbeiter helfen bei Loader-Registerkarten, wenn nach einem BattlEye-Patch ein Modulkonflikt auftritt."
+          "text": "Laden Sie die Portalvoreinstellungen zunächst offline, erhöhen Sie dann die ESP-Distanz und die Zielglättung über mehrere Sitzungen hinweg. Der Support hilft bei Loader-Registerkarten, wenn nach einem BattlEye-Patch ein Modulkonflikt auftritt."
         }
       ],
       "body": [

@@ -227,7 +227,7 @@
         "bullets": [
           "Cloud-Backup für Slider-Profile",
           "Loader-Push innerhalb weniger Stunden nach Patches",
-          "Discord #status für Build-Notizen"
+          "Statusbanner für Build-Notizen"
         ],
         "tags": [
           "cloud sync",
@@ -241,20 +241,20 @@
   "whyUs": {
     "eyebrow": "Warum wir",
     "title": "Raid-Tools, die durch Patches und nicht durch Versprechen unterstützt werden",
-    "subtitle": "Viele Cheat-Shops liefern veraltete Loader, offensichtliche Rage-Presets und Ticket-Bots. {siteDomain} konzentriert sich auf Patch-Day-Loader-Builds, konservative ESP- und Zielvorgaben sowie Live-Discord-Operatoren.",
+    "subtitle": "Viele Cheat-Shops liefern veraltete Loader, offensichtliche Rage-Presets und Ticket-Bots. {siteDomain} konzentriert sich auf Patch-Day-Loader-Builds, konservative ESP- und Zielvorgaben sowie Live-Operatoren.",
     "usLabel": "{siteName}",
     "otherLabel": "Typischer Anbieter",
     "rows": [
       {
         "title": "Patch-Day-Loader-Updates",
-        "desc": "BattlEye-fähige Builds werden innerhalb weniger Stunden nach den Escape From Tarkov-Updates veröffentlicht; Überprüfen Sie den #Status von Discord, bevor Sie in einen Raid laden."
+        "desc": "BattlEye-fähige Builds werden innerhalb weniger Stunden nach den Escape From Tarkov-Updates veröffentlicht; Überprüfen Sie das Live-Statusbanner, bevor Sie in einen Raid laden."
       },
       {
         "title": "Humanisierte Ziel- und ESP-Standardeinstellungen",
         "desc": "FOV-Begrenzungen, Glättungs- und Distanzfilter werden im Portal konservativ ausgeliefert, sodass Overlays lesbar bleiben, und nicht bei Wall-of-Box-Rage-Modi."
       },
       {
-        "title": "Live-Discord-Betreiber",
+        "title": "Live-Betreiber",
         "desc": "Echte Ingenieure für Loader-Setup, Raid-Konfigurationen und HWID-Resets: Schichtabdeckung rund um die Uhr, kein Kopieren und Einfügen von FAQ-Tickets."
       },
       {
@@ -267,7 +267,7 @@
       },
       {
         "title": "HWID-Reset und Lizenzverschiebungen",
-        "desc": "HWID-Freigaben und maschinelle Übertragungen werden über Discord-Operationen abgewickelt, die meisten Anbieter sperren ein Rig oder berechnen für jeden Austausch eine Gebühr."
+        "desc": "HWID-Freigaben und maschinelle Übertragungen werden über den Support abgewickelt, die meisten Anbieter sperren ein Rig oder berechnen für jeden Austausch eine Gebühr."
       }
     ],
     "metrics": [
@@ -279,7 +279,7 @@
       {
         "value": "24/7",
         "title": "Betreiberunterstützung",
-        "desc": "Discord-Techniker sind für Einrichtungs-, Konfigurations- und Kontoprobleme im Einsatz."
+        "desc": "Techniker sind für Einrichtungs-, Konfigurations- und Kontoprobleme im Einsatz."
       },
       {
         "value": "300+",
@@ -292,7 +292,7 @@
     "eyebrow": "Einrichtungsanleitung",
     "titleLead": "Von der Kasse bis zu Ihrem ersten Raid in nur wenigen Minuten",
     "titleHighlight": "drei einfache Schritte",
-    "intro": "Der Einstieg ist einfach. Folgen Sie dem Ablauf des Betreiberportals, um den Loader herunterzuladen, Voreinstellungen zu laden und Escape From Tarkov unter Windows zu starten, mit Live-Discord-Hilfe, falls Sie etwas blockiert.",
+    "intro": "Der Einstieg ist einfach. Folgen Sie dem Ablauf des Betreiberportals, um den Loader herunterzuladen, Voreinstellungen zu laden und Escape From Tarkov unter Windows zu starten.",
     "ctaPrimary": "Produkte ansehen",
     "ctaSecondary": "Häufig gestellte Fragen zur Einrichtung",
     "ctaPrimaryHref": "/cheats/",
@@ -325,7 +325,6 @@
       "BattlEye-Client",
       "Automatischer Updater",
       "Cloud-Synchronisierung konfigurieren",
-      "Discord-Unterstützung",
       "HWID zurückgesetzt",
       "Externer Lader"
     ]
@@ -589,13 +588,6 @@
         "desc": "Kompatibilität, Banns und Einrichtung vor dem Kauf.",
         "linkLabel": "Alle FAQ anzeigen",
         "href": "/faq/"
-      },
-      {
-        "icon": "clock",
-        "title": "Live-Operatoren",
-        "desc": "Discord-Ingenieure sind rund um die Uhr im Einsatz.",
-        "linkLabel": "Discord beitreten",
-        "href": "/support/"
       }
     ],
     "ticketTitle": "Fügen Sie es Ihrem Ticket bei",
@@ -622,7 +614,7 @@
       {
         "num": "01",
         "q": "Wo überprüfe ich, ob Escape From Tarkov-Cheats online sind?",
-        "a": "Das Live-Status-Banner befindet sich auf {siteDomain} und im Discord #status-Kanal. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
+        "a": "Das Live-Status-Banner befindet sich auf {siteDomain}. Schauen Sie immer nach einem Escape From Tarkov- oder BattlEye-Update nach."
       },
       {
         "num": "02",
@@ -642,7 +634,7 @@
       {
         "num": "05",
         "q": "Kann ich meine Lizenz auf einen neuen PC übertragen?",
-        "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Discord-Ticket. Die Limits hängen von Ihrer Stufe ab."
+        "a": "Ja, nutzen Sie den HWID-Reset in Ihrem Portal oder eröffnen Sie ein Support-Ticket. Die Limits hängen von Ihrer Stufe ab."
       },
       {
         "num": "06",
@@ -722,13 +714,13 @@
           "heading": "Was wir veröffentlichen",
           "paragraphs": [
             "Unsere Website behandelt Escape From Tarkov Cheats und HWID Spoofer. Blog-Artikel erläutern Raid-Konfigurationen, Patch-Day-Checks und das Update-Verhalten von BattlEye.",
-            "Der Inhalt wird aktualisiert, wenn Patches verfügbar sind oder Loader-Module verschoben werden. Überprüfen Sie vor jeder Sitzung das Statusbanner der Homepage und den #Status von Discord."
+            "Der Inhalt wird aktualisiert, wenn Patches verfügbar sind oder Loader-Module verschoben werden. Überprüfen Sie vor jeder Sitzung das Statusbanner der Homepage."
           ]
         },
         {
           "heading": "Unterstützung",
           "paragraphs": [
-            "Fragen zur Kompatibilität, zu Loader-Fehlern oder zum Checkout werden über Discord und den E-Mail-Support beantwortet. Geben Sie beim Öffnen eines Tickets Ihre Bestell-E-Mail-Adresse, Ihr Spielkonto und Ihre Windows-Version an."
+            "Fragen zur Kompatibilität, zu Loader-Fehlern oder zum Checkout werden über den E-Mail-Support beantwortet. Geben Sie beim Öffnen eines Tickets Ihre Bestell-E-Mail-Adresse, Ihr Spielkonto und Ihre Windows-Version an."
           ]
         }
       ]
@@ -914,7 +906,6 @@
   "ui": {
     "skipLink": "Zum Hauptinhalt springen",
     "browseCheatsNav": "Versuchen Sie es jetzt",
-    "joinDiscord": "Discord beitreten",
     "homeAria": "EFTCHEATS Startseite",
     "menuOpen": "Menü öffnen",
     "themeLight": "Wechseln Sie in den Lichtmodus",

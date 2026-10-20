@@ -85,6 +85,5 @@ export const compatibilityIcons: IconName[] = [
   'compatMonitor',
   'compatRefresh',
   'compatWifi',
-  'compatDiscord',
   'compatShield',
 ];

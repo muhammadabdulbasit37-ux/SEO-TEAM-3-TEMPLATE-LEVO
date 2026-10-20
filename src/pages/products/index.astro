@@ -16,7 +16,6 @@ import { resolvePageSeo } from '../../config/seo';
 import { PRODUCTS_HUB_PATH } from '../../config/site';
 import { breadcrumbSchema, collectionPageSchema, faqPageSchema, itemListSchema } from '../../utils/schema';
 import { ROUTES } from '../../utils/path';
-import { DISCORD_PATH } from '../../config/checkout';
 import { useLocale } from '../../i18n';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
@@ -135,7 +134,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 )}
               </div>
               <div>
-                <Button as="a" href={lp(featured.path)} variant="primary" size="lg" class="w-full rounded-xl sm:w-auto">
+                <Button as="a" href={lp(featured.path)} variant="primary" size="lg" class="w-full rounded-xl">
                   {t.products.viewDetails}
                   <span class="sr-only">: {t.cheats.title}</span>
                   <Icon name="arrowRight" size={17} />
@@ -296,9 +295,6 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
           <Button as="a" href={lp(ROUTES.support)} variant="primary" size="lg" class="rounded-xl">
             <Icon name="headphones" size={17} />
             {copy.ctaSupport}
-          </Button>
-          <Button as="a" href={DISCORD_PATH} variant="outline" size="lg" class="rounded-xl" rel="nofollow">
-            {t.ui.joinDiscord}
           </Button>
         </div>
       </div>

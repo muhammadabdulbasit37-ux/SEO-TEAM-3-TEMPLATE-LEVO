@@ -29,7 +29,7 @@
 }
 
 html:not(.dark) .workflow-section {
-  background: #fdfaf7;
+  background: #f5f7fa;
 }
 
 .workflow-section__inner {
@@ -226,7 +226,7 @@ html:not(.dark) .workflow-section {
 }
 
 html:not(.dark) .workflow-step__num {
-  background: #fdfaf7;
+  background: #f5f7fa;
 }
 
 .workflow-step__title {

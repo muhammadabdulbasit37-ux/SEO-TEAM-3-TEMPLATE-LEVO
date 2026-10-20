@@ -5,7 +5,7 @@
     {
       "num": "01",
       "title": "Revisar el estado actual",
-      "desc": "Verifique el banner en vivo en {siteDomain} y Discord #status antes de comprar, especialmente después de una actualización de Escape From Tarkov o BattlEye."
+      "desc": "Verifique el banner en vivo en {siteDomain} antes de comprar, especialmente después de una actualización de Escape From Tarkov o BattlEye."
     },
     {
       "num": "02",
@@ -15,7 +15,7 @@
     {
       "num": "03",
       "title": "Contacta con el equipo",
-      "desc": "Abra Discord y confirme la disponibilidad, la configuración de Windows y los detalles de pago con el correo electrónico de su pedido listo."
+      "desc": "Contacte al soporte y confirme la disponibilidad, la configuración de Windows y los detalles de pago con el correo electrónico de su pedido listo."
     },
     {
       "num": "04",
@@ -60,7 +60,7 @@
         },
         {
           "type": "p",
-          "text": "Primero cargue los ajustes preestablecidos del portal sin conexión, luego aumente la distancia ESP y apunte a suavizar durante varias sesiones. El personal de Discord ayuda con las pestañas del cargador si un módulo entra en conflicto después de un parche de BattlEye."
+          "text": "Primero cargue los ajustes preestablecidos del portal sin conexión, luego aumente la distancia ESP y apunte a suavizar durante varias sesiones. El soporte ayuda con las pestañas del cargador si un módulo entra en conflicto después de un parche de BattlEye."
         }
       ],
       "body": [

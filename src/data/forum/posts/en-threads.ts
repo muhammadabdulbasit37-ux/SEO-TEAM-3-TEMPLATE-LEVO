@@ -82,7 +82,7 @@ export const forumPostsEn: ForumPost[] = [
         'short version since people keep asking. dma normally means reading game data from outside the machine the game runs on. cloud dma is the hosted version so youre not building a hardware setup. exact steps are given after purchase so follow those instead of random forum advice, mine included. [Cloud DMA explained](/blog/tarkov-cloud-dma-explained-do-you-need-it/) is on the blog if you want the long version',
       ),
       c('pixelhoarder', '16h', 'ok that actually makes sense. whats the price on it?'),
-      c('Marrow', '15h', 'dont remember a number and i dont want to guess. check the product page or ask support on discord'),
+      c('Marrow', '15h', 'dont remember a number and i dont want to guess. check the product page or ask support'),
       c('pixelhoarder', '14h', 'fair, will ask. thanks'),
     ],
   },
@@ -236,7 +236,7 @@ export const forumPostsEn: ForumPost[] = [
       c(
         'Marrow',
         '30m',
-        'if its still broken, [open a ticket](/support/) on the site or hit discord and include your order id. they cant find your stuff without it',
+        'if its still broken, [open a ticket](/support/) on the site and include your order id. they cant find your stuff without it',
       ),
       c('cableknot', '20m', 'thanks all'),
     ],
@@ -262,8 +262,8 @@ export const forumPostsEn: ForumPost[] = [
         '5h',
         '[status page](/). the product page literally tells you to check it after big patches before loading in',
       ),
-      c('lastextract', '5h', 'thats it? no discord announcement?'),
-      c('Marrow', '4h', 'discord is there for questions but status page is the first stop'),
+      c('lastextract', '5h', 'thats it? no announcement?'),
+      c('Marrow', '4h', 'status page is the first stop for questions'),
       c('gloomfarmer', '4h', 'patience is hard when the wipe just started lol'),
       c(
         'Halvorsen',
@@ -449,7 +449,7 @@ export const forumPostsEn: ForumPost[] = [
       c(
         'Halvorsen',
         '19h',
-        'if you are unsure about anything just [ask support](/support/) before paying, ticket or discord, whichever you like',
+        'if you are unsure about anything just [ask support](/support/) before paying',
       ),
       c('arena_andy', '18h', 'will do. thanks'),
     ],

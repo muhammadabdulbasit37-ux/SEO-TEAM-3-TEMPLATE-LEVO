@@ -1,5 +1,5 @@
 import type { Translations } from './types';
-import { DISCORD_PATH, PRIMARY_CHECKOUT_PATH } from '../config/checkout';
+import { PRIMARY_CHECKOUT_PATH } from '../config/checkout';
 import {
   HWID_SPOOFER_PATH,
   PRODUCT_BASE,
@@ -158,7 +158,7 @@ export const en: Translations = {
         title: 'Cloud Config & Updates',
         subtitle: 'Patch day ready.',
         desc: 'Same presets on every PC; portal updates track Escape From Tarkov and BattlEye patch days.',
-        bullets: ['Cloud backup for slider profiles', 'Loader push within hours of patches', 'Discord #status for build notes'],
+        bullets: ['Cloud backup for slider profiles', 'Loader push within hours of patches', 'Status banner for build notes'],
         tags: ['cloud sync', 'auto update', 'presets'],
         bento: 'sm:col-span-2 lg:col-span-4 lg:col-start-9 lg:row-start-2',
       },
@@ -168,20 +168,20 @@ export const en: Translations = {
     eyebrow: 'Why us',
     title: 'Raid tooling backed by patches, not promises',
     subtitle:
-      'Many cheat shops ship stale loaders, obvious rage presets, and ticket bots. {siteDomain} focuses on patch-day loader builds, conservative ESP and aim defaults, and live Discord operators.',
+      'Many cheat shops ship stale loaders, obvious rage presets, and ticket bots. {siteDomain} focuses on patch-day loader builds, conservative ESP and aim defaults, and live operators.',
     usLabel: '{siteName}',
     otherLabel: 'Typical provider',
     rows: [
       {
         title: 'Patch-day loader updates',
-        desc: 'BattlEye-aware builds pushed within hours of Escape From Tarkov updates; check Discord #status before you load into a raid.',
+        desc: 'BattlEye-aware builds pushed within hours of Escape From Tarkov updates; check the live status banner before you load into a raid.',
       },
       {
         title: 'Humanized aim & ESP defaults',
         desc: 'FOV caps, smoothing and distance filters ship conservative in the portal so overlays stay readable, not wall-of-box rage modes.',
       },
       {
-        title: 'Live Discord operators',
+        title: 'Live operators',
         desc: 'Real engineers for loader setup, raid configs and HWID resets: 24/7 shift coverage, not copy-paste FAQ tickets.',
       },
       {
@@ -194,7 +194,7 @@ export const en: Translations = {
       },
       {
         title: 'HWID reset & license moves',
-        desc: 'HWID clears and machine transfers handled through Discord ops, most providers lock one rig or charge for every swap.',
+        desc: 'HWID clears and machine transfers handled through support, most providers lock one rig or charge for every swap.',
       },
     ],
     metrics: [
@@ -206,7 +206,7 @@ export const en: Translations = {
       {
         value: '24/7',
         title: 'Operator support',
-        desc: 'Discord engineers on shift for setup, configs and account issues.',
+        desc: 'Engineers on shift for setup, configs and account issues.',
       },
       {
         value: '300+',
@@ -220,7 +220,7 @@ export const en: Translations = {
     titleLead: 'From checkout to your first raid in just',
     titleHighlight: 'three simple steps',
     intro:
-      'Getting started is easy. Follow the operator portal flow to download the loader, load presets, and launch Escape From Tarkov on Windows, with live Discord help if anything blocks you.',
+      'Getting started is easy. Follow the operator portal flow to download the loader, load presets, and launch Escape From Tarkov on Windows.',
     ctaPrimary: 'Compare plans',
     ctaSecondary: 'Read the setup FAQ',
     ctaPrimaryHref: productBase,
@@ -247,7 +247,7 @@ export const en: Translations = {
     eyebrow: 'Platform support',
     title: 'Runs on your rig.',
     subtitle: 'Check the live status banner before launching Escape From Tarkov after updates.',
-    items: ['Windows 10 & 11', 'Escape From Tarkov', 'BattlEye client', 'Auto updater', 'Config cloud sync', 'Discord support', 'HWID reset', 'External loader'],
+    items: ['Windows 10 & 11', 'Escape From Tarkov', 'BattlEye client', 'Auto updater', 'Config cloud sync', 'HWID reset', 'External loader'],
   },
   cheats: {
     eyebrow: 'Main product',
@@ -497,13 +497,6 @@ export const en: Translations = {
         linkLabel: 'View all FAQ',
         href: '/faq/',
       },
-      {
-        icon: 'clock',
-        title: 'Live operators',
-        desc: 'Discord engineers on shift 24/7.',
-        linkLabel: 'Join Discord',
-        href: DISCORD_PATH,
-      },
     ],
     ticketTitle: 'Include in your ticket',
     ticketItems: [
@@ -520,7 +513,7 @@ export const en: Translations = {
       {
         num: '01',
         q: 'Where do I check if Escape From Tarkov cheats are online?',
-        a: 'The live status banner is on {siteDomain} and in the Discord #status channel. Always check after an Escape From Tarkov or BattlEye update.',
+        a: 'The live status banner is on {siteDomain}. Always check after an Escape From Tarkov or BattlEye update.',
       },
       {
         num: '02',
@@ -540,7 +533,7 @@ export const en: Translations = {
       {
         num: '05',
         q: 'Can I move my license to a new PC?',
-        a: 'Yes, use the HWID reset in your portal or open a Discord ticket. Limits depend on your tier.',
+        a: 'Yes, use the HWID reset in your portal or open a support ticket. Limits depend on your tier.',
       },
       {
         num: '06',
@@ -590,13 +583,13 @@ export const en: Translations = {
           heading: 'What we publish',
           paragraphs: [
             'Our site covers {cheatProduct} and the utilities listed on our products page. Blog articles explain raid configs, patch-day checks, and BattlEye update behavior.',
-            'Content is updated when patches land or when loader modules shift. Check the homepage status banner and Discord #status before every session.',
+            'Content is updated when patches land or when loader modules shift. Check the homepage status banner before every session.',
           ],
         },
         {
           heading: 'Support',
           paragraphs: [
-            'Questions about compatibility, loader errors, or checkout are handled through Discord and email support. Include your order email, game account, and Windows version when opening a ticket.',
+            'Questions about compatibility, loader errors, or checkout are handled through email support. Include your order email, game account, and Windows version when opening a ticket.',
           ],
         },
       ],
@@ -849,13 +842,12 @@ export const en: Translations = {
     '/support/': {
       title: 'Escape From Tarkov Cheats Support | Loader, HWID & Checkout',
       description:
-        'Contact Discord operators for portal access, module errors, and billing questions before or after checkout on {siteDomain}.',
+        'Contact support for portal access, module errors, and billing questions before or after checkout on {siteDomain}.',
     },
   },
   ui: {
     skipLink: 'Skip to main content',
     browseCheatsNav: 'Try Now',
-    joinDiscord: 'Join Discord',
     homeAria: 'EFTCHEATS home',
     menuOpen: 'Open menu',
     themeLight: 'Switch to light mode',

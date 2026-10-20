@@ -37,7 +37,7 @@ const en: CatalogCopy = {
   title: '{gameName} cheats and utilities',
   subtitle:
     'Everything we sell for {gameName}. Open any product for the full feature list, requirements and checkout.',
-  trust: ['Instant delivery', '24/7 Discord support', 'Monthly or lifetime plans', 'Partner checkout'],
+  trust: ['Instant delivery', '24/7 support', 'Monthly or lifetime plans', 'Partner checkout'],
   featuredEyebrow: 'Main product',
   from: 'From',
   priceLabel: 'Price',
@@ -114,7 +114,7 @@ const es: CatalogCopy = {
   title: 'Trucos y utilidades para {gameName}',
   subtitle:
     'Todo lo que vendemos para {gameName}. Abre cualquier producto para ver funciones, requisitos y pago.',
-  trust: ['Entrega inmediata', 'Soporte 24/7 en Discord', 'Planes mensuales o de por vida', 'Pago con socio'],
+  trust: ['Entrega inmediata', 'Soporte 24/7', 'Planes mensuales o de por vida', 'Pago con socio'],
   featuredEyebrow: 'Producto principal',
   from: 'Desde',
   priceLabel: 'Precio',
@@ -191,7 +191,7 @@ const de: CatalogCopy = {
   title: '{gameName} Cheats und Tools',
   subtitle:
     'Alles, was wir für {gameName} anbieten. Öffne ein Produkt für Funktionsliste, Anforderungen und Kaufabwicklung.',
-  trust: ['Sofortige Lieferung', '24/7 Discord-Support', 'Monats- oder Lifetime-Plan', 'Partner-Checkout'],
+  trust: ['Sofortige Lieferung', '24/7 Support', 'Monats- oder Lifetime-Plan', 'Partner-Checkout'],
   featuredEyebrow: 'Hauptprodukt',
   from: 'Ab',
   priceLabel: 'Preis',
@@ -268,7 +268,7 @@ const fr: CatalogCopy = {
   title: 'Cheats et utilitaires {gameName}',
   subtitle:
     'Tout ce que nous vendons pour {gameName}. Ouvrez un produit pour voir fonctionnalités, prérequis et paiement.',
-  trust: ['Livraison immédiate', 'Support Discord 24/7', 'Formule mensuelle ou à vie', 'Paiement partenaire'],
+  trust: ['Livraison immédiate', 'Support 24/7', 'Formule mensuelle ou à vie', 'Paiement partenaire'],
   featuredEyebrow: 'Produit principal',
   from: 'Dès',
   priceLabel: 'Prix',

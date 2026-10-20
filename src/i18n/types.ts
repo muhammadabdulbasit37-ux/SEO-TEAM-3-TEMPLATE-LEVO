@@ -379,7 +379,6 @@ export interface Translations {
     skipLink: string;
     /** Compact header CTA (fits navbar beside language + theme). */
     browseCheatsNav: string;
-    joinDiscord: string;
     homeAria: string;
     menuOpen: string;
     themeLight: string;

@@ -10,7 +10,6 @@ import SectionHeader from '../components/SectionHeader.astro';
 import { Button } from '@/components/starwind/button';
 import Icon from '../components/icons/Icon.astro';
 import { ROUTES } from '../utils/path';
-import { DISCORD_PATH } from '../config/checkout';
 import { HWID_SPOOFER_SLUG, isUtilityEnabled } from '../config/catalog';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
@@ -69,9 +68,6 @@ const faqs = getAllFaqs(locale);
       <Button as="a" href={lp(ROUTES.support)} variant="outline">
         {t.nav.find((l) => l.id === 'support')?.label ?? 'Support'}
         <Icon name="headphones" size={16} />
-      </Button>
-      <Button as="a" href={DISCORD_PATH} variant="outline" rel="nofollow">
-        {t.ui.joinDiscord}
       </Button>
       <Button as="a" href={lp(ROUTES.blog)} variant="outline">
         {t.nav.find((l) => l.id === 'blog')?.label ?? 'Blog'}

@@ -11,7 +11,7 @@ import {
   breadcrumbSchema,
   parseBlogDate,
 } from '../../utils/schema';
-import { DISCORD_PATH, HWID_CHECKOUT_PATH, PRIMARY_CHECKOUT_PATH, resolveCheckoutHref } from '../../config/checkout';
+import { HWID_CHECKOUT_PATH, PRIMARY_CHECKOUT_PATH, resolveCheckoutHref } from '../../config/checkout';
 import { HWID_SPOOFER_SLUG, isUtilityEnabled } from '../../config/catalog';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
@@ -201,9 +201,6 @@ const heroAlt = post.imageAlt ?? post.title;
             )}
             <Button as="a" href={lp(ROUTES.productsHub)} variant="outline">
               {t.notFound.viewProducts}
-            </Button>
-            <Button as="a" href={DISCORD_PATH} variant="outline" rel="nofollow">
-              {t.ui.joinDiscord}
             </Button>
             <Button as="a" href={lp(ROUTES.blog)} variant="outline">
               {t.blog.moreArticles}

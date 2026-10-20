@@ -4,7 +4,6 @@ import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { Prose } from '@/components/starwind/prose';
 import { useLocale } from '../i18n';
-import { DISCORD_PATH } from '../config/checkout';
 
 interface Props {
   title: string;
@@ -48,7 +47,6 @@ const { t, lp } = useLocale(Astro.currentLocale);
         {t.common.contactSupport}
         <Icon name="mail" size={16} />
       </Button>
-      <Button as="a" href={DISCORD_PATH} variant="outline" size="sm" rel="nofollow">{t.ui.joinDiscord}</Button>
       <Button as="a" href={lp('/')} variant="outline" size="sm">{t.notFound.backHome}</Button>
     </div>
   </div>

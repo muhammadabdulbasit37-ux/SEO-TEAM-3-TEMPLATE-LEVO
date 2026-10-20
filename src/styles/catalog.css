@@ -82,7 +82,10 @@
 .catalog-featured__body {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 1.1rem;
+  width: 100%;
+  min-width: 0;
   padding: 1.5rem;
 }
 
@@ -109,6 +112,10 @@
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--muted-foreground);
+}
+
+.catalog-featured__body [data-slot='button'] {
+  width: 100%;
 }
 
 .catalog-featured__features {

@@ -2,7 +2,7 @@
   {
     "id": "status",
     "q": "Où puis-je vérifier si les cheats d'Escape From Tarkov sont en ligne ?",
-    "a": "La bannière de statut en direct se trouve sur {siteDomain} et dans le canal Discord #status. Vérifiez toujours après une mise à jour d'Escape From Tarkov ou de BattlEye."
+    "a": "La bannière de statut en direct se trouve sur {siteDomain}. Vérifiez toujours après une mise à jour d'Escape From Tarkov ou de BattlEye."
   },
   {
     "id": "after-buy",
@@ -22,7 +22,7 @@
   {
     "id": "license-move",
     "q": "Puis-je déplacer ma licence vers un nouveau PC ?",
-    "a": "Oui, utilisez la réinitialisation HWID dans votre portail ou ouvrez un ticket Discord. Les limites dépendent de votre niveau."
+    "a": "Oui, utilisez la réinitialisation HWID dans votre portail ou ouvrez un ticket de support. Les limites dépendent de votre niveau."
   },
   {
     "id": "products-page",
@@ -47,7 +47,7 @@
   {
     "id": "stream-proof",
     "q": "OBS peut-il capturer ma superposition ?",
-    "a": "Le mode anti-diffusion sur <a href=\"/cheats/\">Produit</a> masque les superpositions du partage OBS et Discord. Testez un enregistrement local avant de passer en direct."
+    "a": "Le mode anti-diffusion sur <a href=\"/cheats/\">Produit</a> masque les superpositions OBS. Testez un enregistrement local avant de passer en direct."
   },
   {
     "id": "build-status",
@@ -77,7 +77,7 @@
   {
     "id": "blog-setup",
     "q": "Où les guides de configuration de blog pointent-ils pour l’achat ?",
-    "a": "Les guides renvoient vers les pages produit, par exemple <a href=\"/cheats/\">{cheatProduct}</a>. Le paiement s'effectue via notre partenaire ; n'utilisez jamais de fichiers de loader reçus en DM sur Discord."
+    "a": "Les guides renvoient vers les pages produit, par exemple <a href=\"/cheats/\">{cheatProduct}</a>. Le paiement s'effectue via notre partenaire ; n'utilisez jamais de fichiers de loader reçus dans des messages au hasard."
   },
   {
     "id": "who-cheats",
@@ -87,12 +87,12 @@
   {
     "id": "vac-update",
     "q": "Que dois-je faire après une mise à jour de BattlEye ?",
-    "a": "Vérifiez le statut de {siteDomain} et le #statut de Discord. Ne lancez pas tant que la bannière n'est pas affichée en ligne. Chargez des préréglages conservateurs après n’importe quel patch."
+    "a": "Vérifiez le statut de {siteDomain}. Ne lancez pas tant que la bannière n'est pas affichée en ligne. Chargez des préréglages conservateurs après n’importe quel patch."
   },
   {
     "id": "discord-help",
     "q": "Comment puis-je obtenir de l'aide pour l'installation ?",
-    "a": "Ouvrez Discord après l'achat avec votre e-mail de commande, la version Windows et la version du client Escape From Tarkov. Le personnel parcourt la configuration du chargeur en direct."
+    "a": "Ouvrez un ticket de support après l'achat avec votre e-mail de commande, la version Windows et la version du client Escape From Tarkov. Le personnel parcourt la configuration du chargeur à partir de là."
   },
   {
     "id": "pmc-scav-raids",

@@ -5,5 +5,4 @@ export const BRAND_LOGO_MASTER = '/images/brand/eft-cheats-logo.webp';
 export const BRAND_LOGO_SCHEMA = '/images/brand/eft-cheats-logo-512.webp';
 
 /** Describes the artwork only, no store or vendor name. */
-export const BRAND_LOGO_ALT =
-  'Hooded figure with glowing purple eyes and a purple-outlined game controller inside a neon purple circular frame.';
+export const BRAND_LOGO_ALT = 'Blue planet with a ring on a circular blue background.';

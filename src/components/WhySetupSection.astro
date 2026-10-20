@@ -6,7 +6,6 @@ const { t, lp } = useLocale(Astro.currentLocale);
 import { setupStepIcons } from "../data/sectionIcons";
 import Icon from "./icons/Icon.astro";
 import { Button } from "@/components/starwind/button";
-import { DISCORD_PATH } from "../config/checkout";
 import { Card, CardHeader, CardTitle } from "@/components/starwind/card";
 
 const why = t.whyUs;
@@ -222,16 +221,6 @@ const lastRowIndex = why.rows.length - 1;
         class="deployment-cta-secondary w-full rounded-xl sm:w-auto"
       >
         {t.setup.ctaSecondary}
-      </Button>
-      <Button
-        as="a"
-        href={DISCORD_PATH}
-        variant="outline"
-        size="lg"
-        class="w-full rounded-xl sm:w-auto"
-        rel="nofollow"
-      >
-        {t.ui.joinDiscord}
       </Button>
     </div>
   </div>

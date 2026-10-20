@@ -3,7 +3,6 @@ export declare const CHECKOUT_URLS: {
   readonly hwidSpoofer: string;
   readonly skinChanger: string;
   readonly ugc: string;
-  readonly discord: string;
 };
 
 export declare const CHECKOUT_PATH_REDIRECTS: ReadonlyMap<string, string>;

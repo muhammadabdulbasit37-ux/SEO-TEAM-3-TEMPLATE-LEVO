@@ -15,7 +15,6 @@ export const CHECKOUT_SLUGS: Record<CheckoutProduct, string> = {
   hwidSpoofer: 'hwid-spoofer',
   skinChanger: 'skin-changer',
   ugc: 'ugc',
-  discord: 'discord',
 };
 
 export const CHECKOUT_SLUG_TO_PRODUCT = Object.fromEntries(
@@ -36,9 +35,6 @@ export const HWID_CHECKOUT_PATH = checkoutPath('hwidSpoofer');
 export const SKIN_CHANGER_CHECKOUT_PATH = checkoutPath('skinChanger');
 
 export const UGC_CHECKOUT_PATH = checkoutPath('ugc');
-
-/** Discord invite. Hover shows `/go/discord/`; click 302s to the invite. */
-export const DISCORD_PATH = checkoutPath('discord');
 
 /** Map internal product slugs to cloaked checkout paths. */
 export function checkoutForSlug(slug: string): string {
