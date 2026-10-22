@@ -6,5 +6,3 @@ Disallow: /de/go/
 Disallow: /fr/go/
 
 Sitemap: https://eftcheat.net/sitemap.xml
-
-# RSS: https://eftcheat.net/rss.xml

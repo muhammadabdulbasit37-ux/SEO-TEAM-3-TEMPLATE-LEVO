@@ -3,12 +3,12 @@
  * Request handling matches scripts/serve.mjs.
  */
 import { resolvePathRedirect } from '../scripts/redirects.mjs';
+import { isLocalPreviewHost, parseHostname } from '../scripts/local-preview-host.mjs';
 import { resolveCheckoutPathRedirect } from '../src/config/checkout-redirects.mjs';
-import { resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
-import { SITE_DOMAIN, SITE_URL } from '../src/config/site-url.mjs';
+import { isErrorDocumentPath, resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
+import { SITE_DOMAIN } from '../src/config/site-url.mjs';
 
 const CANONICAL_HOST = SITE_DOMAIN;
-const CANONICAL_ORIGIN = SITE_URL;
 
 const SECURITY_CSP = [
   "default-src 'self'",
@@ -122,23 +122,22 @@ function redirect(location, status) {
   );
 }
 
-function normalizeHostname(hostname) {
-  return hostname.toLowerCase().replace(/\.$/, '');
-}
-
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    const host = normalizeHostname(url.hostname);
+    const host = parseHostname(url.hostname);
+    const skipHostCanonical = isLocalPreviewHost(host);
     const needsHttps = url.protocol !== 'https:';
     const needsWwwStrip = host === `www.${CANONICAL_HOST}`;
     const needsHostFix = host !== CANONICAL_HOST && !needsWwwStrip;
 
-    if (needsHttps || needsWwwStrip || needsHostFix) {
+    if (!skipHostCanonical && (needsHttps || needsWwwStrip || needsHostFix)) {
       url.protocol = 'https:';
       url.hostname = CANONICAL_HOST;
       url.port = '';
-      return redirect(`${url.origin}${url.pathname}${url.search}${url.hash}`, 301);
+      const response = redirect(`${url.origin}${url.pathname}${url.search}${url.hash}`, 301);
+      response.headers.set('Cache-Control', 'private, no-store');
+      return response;
     }
 
     const { pathname, query, fragment } = splitUrl(`${url.pathname}${url.search}${url.hash}`);
@@ -155,7 +154,7 @@ export default {
 
     const pathRedirect = resolvePathRedirect(pathname);
     if (pathRedirect && pathRedirect !== pathname) {
-      return redirect(`${CANONICAL_ORIGIN}${pathRedirect}${suffix}`, 301);
+      return redirect(`${pathRedirect}${suffix}`, 301);
     }
 
     const cleanPagePath = pathname.endsWith('/index.html')
@@ -164,12 +163,12 @@ export default {
         ? `${pathname.toLowerCase().replace(/\/?$/, '/')}`
         : null;
     if (cleanPagePath) {
-      return redirect(`${CANONICAL_ORIGIN}${cleanPagePath}${suffix}`, 301);
+      return redirect(`${cleanPagePath}${suffix}`, 301);
     }
 
     const localeRoute = resolveLocaleRoutingRedirect(pathname);
     if (localeRoute?.status === 301) {
-      return redirect(`${CANONICAL_ORIGIN}${localeRoute.location}${suffix}`, 301);
+      return redirect(`${localeRoute.location}${suffix}`, 301);
     }
     if (localeRoute?.status === 404) {
       return notFound(env, request);
@@ -184,6 +183,20 @@ export default {
         (redirectedTo === '/404' || redirectedTo === '/404.html'))
     ) {
       return notFound(env, request);
+    }
+
+    if (isErrorDocumentPath(pathname) && asset.status === 200) {
+      const headers = new Headers(withHtmlCharset(asset).headers);
+      headers.delete('Link');
+      headers.set('X-Robots-Tag', 'noindex, nofollow');
+      headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+      return withSecurityHeaders(
+        new Response(asset.body, {
+          status: 404,
+          statusText: 'Not Found',
+          headers,
+        }),
+      );
     }
 
     const response = withHtmlCharset(asset);

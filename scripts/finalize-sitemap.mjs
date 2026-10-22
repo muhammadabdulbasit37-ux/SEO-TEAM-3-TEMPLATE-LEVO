@@ -1,9 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { SITE_URL } from '../src/config/site-url.mjs';
 
-const root = process.cwd();
-const dist = path.join(root, 'dist');
+const dist = path.join(process.cwd(), 'dist');
 const source = path.join(dist, 'sitemap-0.xml');
 
 if (!fs.existsSync(source)) {
@@ -23,6 +21,10 @@ function field(block, name) {
   return block.match(new RegExp(`<${name}>([^<]*)</${name}>`))?.[1] ?? '';
 }
 
+function xhtmlLinks(block) {
+  return [...block.matchAll(/<xhtml:link\b[^>]*\/?>/g)].map((match) => match[0]);
+}
+
 function formatUrlset(xml) {
   const urls = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => {
     const block = match[1];
@@ -33,32 +35,31 @@ function formatUrlset(xml) {
     if (lastmod) lines.push(`    <lastmod>${lastmod.slice(0, 10)}</lastmod>`);
     if (changefreq) lines.push(`    <changefreq>${changefreq}</changefreq>`);
     if (priority) lines.push(`    <priority>${priority}</priority>`);
+    for (const link of xhtmlLinks(block)) {
+      lines.push(`    ${link}`);
+    }
     lines.push('  </url>');
     return lines.join('\n');
   });
 
+  const hasXhtml = xml.includes('xhtml:link');
+  const ns = hasXhtml
+    ? 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
+    : 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset ${ns}>
 ${urls.join('\n')}
 </urlset>
 `;
 }
 
 const formatted = formatUrlset(raw);
-const sitemapUrl = `${SITE_URL}/sitemap.xml`;
-const lastmod = new Date().toISOString().slice(0, 10);
-
-fs.writeFileSync(path.join(dist, 'sitemap-0.xml'), formatted, 'utf8');
 fs.writeFileSync(path.join(dist, 'sitemap.xml'), formatted, 'utf8');
 
-const indexXml = `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>${sitemapUrl}</loc>
-    <lastmod>${lastmod}</lastmod>
-  </sitemap>
-</sitemapindex>
-`;
-fs.writeFileSync(path.join(dist, 'sitemap-index.xml'), indexXml, 'utf8');
+for (const extra of ['sitemap-0.xml', 'sitemap-index.xml']) {
+  const extraPath = path.join(dist, extra);
+  if (fs.existsSync(extraPath)) fs.unlinkSync(extraPath);
+}
 
-console.log(`Sitemap finalized: ${urlCount} URLs → dist/sitemap.xml (and dist/sitemap-0.xml)`);
+console.log(`Sitemap finalized: ${urlCount} URLs → dist/sitemap.xml`);

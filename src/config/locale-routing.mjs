@@ -49,6 +49,13 @@ export function hasNestedLocalePrefix(pathname) {
 /**
  * @returns {{ status: 301, location: string } | { status: 404 } | null}
  */
+/** True for the prerendered 404 documents. Serve these with HTTP 404, not 200. */
+export function isErrorDocumentPath(pathname) {
+  const bare = (pathname || '/').replace(/\/+$/, '') || '/';
+  if (bare === '/404' || bare === '/404.html') return true;
+  return /^\/(?:es|de|fr)\/404(?:\.html)?$/.test(bare);
+}
+
 export function resolveLocaleRoutingRedirect(pathname) {
   const unprefixedGo = stripPrefixedLocaleFromGo(pathname);
   if (unprefixedGo) {

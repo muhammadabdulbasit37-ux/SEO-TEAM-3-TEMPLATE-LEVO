@@ -17,6 +17,18 @@ const out = path.join('public', '_redirects');
 fs.writeFileSync(out, `${lines.join('\n')}\n`);
 console.log(`Wrote ${lines.length - 1} redirect rules → ${out}`);
 
+const robots = `User-agent: *
+Allow: /
+Disallow: /go/
+Disallow: /es/go/
+Disallow: /de/go/
+Disallow: /fr/go/
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+fs.writeFileSync(path.join('public', 'robots.txt'), robots);
+console.log(`Wrote public/robots.txt → Sitemap: ${SITE_URL}/sitemap.xml`);
+
 /** Fallback pages when a host serves files instead of `_redirects`. Hover still shows `/go/…`. */
 function escapeHtml(value) {
   return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');

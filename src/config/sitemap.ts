@@ -4,7 +4,7 @@ import { getForumPosts } from '../data/forum/locale';
 import { getAllProductSlugs } from '../data/products';
 import { LOCALES } from '../i18n/locales';
 import { localizePath } from '../i18n/paths';
-import { isIndexablePath } from './hreflang';
+import { isIndexablePath, sitemapAlternateLinks } from './hreflang';
 import { UTILITY_PRODUCT_PATHS, UTILITY_PRODUCT_SLUGS } from './catalog';
 import { canonicalUrl } from './seo';
 import { ROUTES, blogPostPath, productPath } from '../utils/path';
@@ -30,6 +30,7 @@ export function sitemapSerialize(item: SitemapItem): SitemapItem | undefined {
     return undefined;
   }
 
+  item.links = sitemapAlternateLinks(path);
   delete item.lastmod;
 
   if (path === '/') {

@@ -1,8 +1,10 @@
+import { isLocalPreviewHost, parseHostname } from '../scripts/local-preview-host.mjs';
 import { SITE_DOMAIN } from '../src/config/site-url.mjs';
 
 export async function onRequest({ request, next }) {
   const url = new URL(request.url);
-  const host = (request.headers.get('host') || url.hostname).toLowerCase().replace(/:\d+$/, '').replace(/\.$/, '');
+  const host = parseHostname(request.headers.get('host') || url.hostname);
+  if (isLocalPreviewHost(host)) return next();
 
   if (host === `www.${SITE_DOMAIN}`) {
     url.protocol = 'https:';

@@ -10,6 +10,7 @@
     "build": "node scripts/optimize-images.mjs && node scripts/generate-static-redirects.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/indexnow.mjs",
     "preview": "astro preview --host 0.0.0.0",
     "start": "node scripts/serve.mjs",
+    "test:local-hosts": "node --test scripts/local-preview-host.test.mjs",
     "astro": "astro",
     "optimize:images": "node scripts/optimize-images.mjs"
   },

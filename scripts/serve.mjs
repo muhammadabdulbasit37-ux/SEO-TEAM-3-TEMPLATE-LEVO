@@ -3,12 +3,25 @@ import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import { resolvePathRedirect } from './redirects.mjs';
+import { isLocalPreviewHost, parseHostname } from './local-preview-host.mjs';
 import { resolveCheckoutPathRedirect } from '../src/config/checkout-redirects.mjs';
-import { resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
+import { isErrorDocumentPath, resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
 
 import { SITE_DOMAIN as CANONICAL_HOST } from '../src/config/site-url.mjs';
 const distDir = path.resolve('dist');
-const port = Number(process.env.PORT) || 3000;
+/** 4173 avoids Chrome's cached 301 from older local previews on port 3000. Production still uses PORT. */
+const port = Number(process.env.PORT) || 4173;
+
+function envFlag(name) {
+  const value = process.env[name];
+  return value === '1' || value === 'true' || value === 'yes';
+}
+
+/**
+ * Host canonicalization (www/http → https://SITE_DOMAIN) is opt-in for production only.
+ * Never key this off NODE_ENV: local `npm start` often runs with NODE_ENV=production.
+ */
+const canonicalRedirectsEnabled = envFlag('ENABLE_CANONICAL_REDIRECT');
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -45,13 +58,19 @@ if (!fs.existsSync(distDir)) {
   process.exit(1);
 }
 
+function getDirectRequestHost(req) {
+  return parseHostname(req.headers.host ?? '');
+}
+
 function getRequestHost(req) {
-  const raw = req.headers['x-forwarded-host'] ?? req.headers.host ?? '';
-  return raw.split(',')[0].trim().split(':')[0].toLowerCase().replace(/\.$/, '');
+  return parseHostname(req.headers['x-forwarded-host'] ?? req.headers.host ?? '');
 }
 
 function getCanonicalRedirect(req) {
+  if (!canonicalRedirectsEnabled) return null;
+  if (isLocalPreviewHost(getDirectRequestHost(req))) return null;
   const host = getRequestHost(req);
+  if (!host || isLocalPreviewHost(host)) return null;
   const forwardedProto = (req.headers['x-forwarded-proto'] ?? '').split(',')[0].trim().toLowerCase();
   const needsHttps = forwardedProto === 'http';
   const needsWwwStrip = host === `www.${CANONICAL_HOST}`;
@@ -99,7 +118,9 @@ function getCacheControl(filePath) {
   }
 
   if (ext === '.html') {
-    return 'public, max-age=3600, must-revalidate';
+    return canonicalRedirectsEnabled
+      ? 'public, max-age=3600, must-revalidate'
+      : 'no-store';
   }
 
   if (ext === '.webmanifest' || ext === '.xml') {
@@ -165,6 +186,10 @@ function sendFile(req, res, filePath, statusCode = 200) {
     'Cache-Control': getCacheControl(filePath),
     Vary: 'Accept-Encoding',
   };
+  if (statusCode === 404) {
+    headers['X-Robots-Tag'] = 'noindex, nofollow';
+    headers['Cache-Control'] = 'public, max-age=0, must-revalidate';
+  }
 
   if (!COMPRESSIBLE.has(ext)) {
     const stream = fs.createReadStream(filePath);
@@ -205,7 +230,10 @@ function sendFile(req, res, filePath, statusCode = 200) {
 const server = http.createServer((req, res) => {
   const canonicalRedirect = getCanonicalRedirect(req);
   if (canonicalRedirect) {
-    res.writeHead(301, { Location: canonicalRedirect });
+    res.writeHead(301, {
+      Location: canonicalRedirect,
+      'Cache-Control': 'private, no-store',
+    });
     res.end();
     return;
   }
@@ -262,7 +290,7 @@ const server = http.createServer((req, res) => {
 
   const filePath = resolveFile(pathname);
   if (filePath && fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-    sendFile(req, res, filePath);
+    sendFile(req, res, filePath, isErrorDocumentPath(pathname) ? 404 : 200);
     return;
   }
 
@@ -279,5 +307,9 @@ const server = http.createServer((req, res) => {
 const warmed = warmCompressed();
 
 server.listen(port, '0.0.0.0', () => {
-  console.log(`Serving ${distDir} on http://0.0.0.0:${port} (${warmed} files precompressed)`);
+  const redirectNote = canonicalRedirectsEnabled
+    ? `canonical redirects to https://${CANONICAL_HOST}`
+    : 'canonical redirects disabled (set ENABLE_CANONICAL_REDIRECT=1 in production)';
+  console.log(`Serving ${distDir} on http://127.0.0.1:${port} (${warmed} files precompressed, ${redirectNote})`);
+  console.log(`Open http://127.0.0.1:${port}/  (Chrome may still send http://localhost:3000/ to the live domain from a cached 301)`);
 });

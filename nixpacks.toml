@@ -12,3 +12,4 @@ cmd = "npm run start"
 
 [variables]
 HOST = "0.0.0.0"
+ENABLE_CANONICAL_REDIRECT = "1"
